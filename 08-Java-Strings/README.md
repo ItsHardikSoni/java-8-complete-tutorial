@@ -1,6 +1,11 @@
+---
+title: "Java String Tutorial: String, StringBuilder, and StringBuffer"
+description: "Learn Java String handling with literals, immutability, common methods, StringBuilder, StringBuffer, regex, examples, practice exercises, and interview answers."
+---
+
 # Chapter 8: Strings in Java
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Arrays](../07-Java-Arrays/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Arrays](../07-Java-Arrays/README.md) | [Next: Exception Handling](../09-Java-Exception-Handling/README.md)
 
 **Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
 
@@ -2083,127 +2088,127 @@ Longest word: programming
 
 **Q1. What is a String in Java?**
 
-A String is an object representing a sequence of characters.
+**Answer:** A String is an object representing a sequence of characters.
 
 **Q2. Is String a primitive or non-primitive data type?**
 
-String is a reference type.
+**Answer:** String is a reference type.
 
 **Q3. Why is String immutable in Java?**
 
-Immutability provides benefits such as safe sharing, security, String pooling, and reliable hash codes.
+**Answer:** Immutability provides benefits such as safe sharing, security, String pooling, and reliable hash codes.
 
 **Q4. What is the String Constant Pool?**
 
-It is a JVM-managed pool used to reuse canonical String literals.
+**Answer:** It is a JVM-managed pool used to reuse canonical String literals.
 
 **Q5. What is the difference between String literal and `new String()`?**
 
-A literal uses the pooled representation, while `new String()` explicitly creates a new String object.
+**Answer:** A literal uses the pooled representation, while `new String()` explicitly creates a new String object.
 
 **Q6. What is the use of `intern()`?**
 
-It returns the canonical pooled representation of a String.
+**Answer:** It returns the canonical pooled representation of a String.
 
 **Q7. What is the difference between `==` and `equals()`?**
 
-For object references, `==` compares identity. For String, `equals()` compares contents.
+**Answer:** For object references, `==` compares identity. For String, `equals()` compares contents.
 
 **Q8. What is the use of `charAt()`?**
 
-It returns the character at a specified index.
+**Answer:** It returns the character at a specified index.
 
 **Q9. What is the use of `substring()`?**
 
-It extracts a portion of a String.
+**Answer:** It extracts a portion of a String.
 
 **Q10. What is String concatenation?**
 
-It is the process of joining multiple Strings.
+**Answer:** It is the process of joining multiple Strings.
 
 ### Intermediate Questions
 
 **Q11. What is StringBuilder?**
 
-StringBuilder is a mutable sequence of characters used for efficient String construction and modification.
+**Answer:** StringBuilder is a mutable sequence of characters used for efficient String construction and modification.
 
 **Q12. What is StringBuffer?**
 
-StringBuffer is a mutable sequence of characters with synchronized methods.
+**Answer:** StringBuffer is a mutable sequence of characters with synchronized methods.
 
 **Q13. What is the difference between StringBuilder and StringBuffer?**
 
-StringBuilder is not synchronized and is generally faster in single-threaded use. StringBuffer synchronizes its methods.
+**Answer:** StringBuilder is not synchronized and is generally faster in single-threaded use. StringBuffer synchronizes its methods.
 
 **Q14. Is StringBuilder thread-safe?**
 
-No. It is not synchronized.
+**Answer:** No. It is not synchronized.
 
 **Q15. Is StringBuffer thread-safe?**
 
-Its individual methods are synchronized, although compound operations may still require external synchronization.
+**Answer:** Its individual methods are synchronized, although compound operations may still require external synchronization.
 
 **Q16. What is the use of `append()`?**
 
-It adds content to the end of a StringBuilder or StringBuffer.
+**Answer:** It adds content to the end of a StringBuilder or StringBuffer.
 
 **Q17. What is the use of `reverse()`?**
 
-It reverses the character sequence in StringBuilder or StringBuffer.
+**Answer:** It reverses the character sequence in StringBuilder or StringBuffer.
 
 **Q18. What is the difference between `equals()` and `equalsIgnoreCase()`?**
 
-`equals()` compares content with case sensitivity, while `equalsIgnoreCase()` ignores case differences.
+**Answer:** `equals()` compares content with case sensitivity, while `equalsIgnoreCase()` ignores case differences.
 
 **Q19. What is the difference between `replace()` and `replaceAll()`?**
 
-`replace()` performs literal character or sequence replacement, while `replaceAll()` uses a regular expression.
+**Answer:** `replace()` performs literal character or sequence replacement, while `replaceAll()` uses a regular expression.
 
 **Q20. What is the use of `split()`?**
 
-It divides a String into an array using a regular expression.
+**Answer:** It divides a String into an array using a regular expression.
 
 ### Advanced Questions
 
 **Q21. Why is String commonly used as a HashMap key?**
 
-String is immutable and provides stable equality and hash-code behavior.
+**Answer:** String is immutable and provides stable equality and hash-code behavior.
 
 **Q22. Can we create a mutable String?**
 
-String itself is immutable. For mutable character sequences, use StringBuilder or StringBuffer.
+**Answer:** String itself is immutable. For mutable character sequences, use StringBuilder or StringBuffer.
 
 **Q23. What is the default capacity of StringBuilder?**
 
-The default initial capacity is 16 characters.
+**Answer:** The default initial capacity is 16 characters.
 
 **Q24. What happens when StringBuilder exceeds its capacity?**
 
-Its internal storage grows automatically.
+**Answer:** Its internal storage grows automatically.
 
 **Q25. What is the difference between `isEmpty()` and `isBlank()`?**
 
-`isEmpty()` checks whether the length is zero. `isBlank()` checks whether the String is empty or contains only whitespace, but `isBlank()` was introduced in Java 11 and is not available in Java 8.
+**Answer:** `isEmpty()` checks whether the length is zero. `isBlank()` checks whether the String is empty or contains only whitespace, but `isBlank()` was introduced in Java 11 and is not available in Java 8.
 
 **Q26. What is the difference between `trim()` and `strip()`?**
 
-`trim()` is available in Java 8 and removes leading and trailing characters up to U+0020. `strip()` uses Unicode whitespace rules and was introduced in Java 11.
+**Answer:** `trim()` is available in Java 8 and removes leading and trailing characters up to U+0020. `strip()` uses Unicode whitespace rules and was introduced in Java 11.
 
 **Q27. Does String length always equal the number of visible characters?**
 
-No. `length()` counts UTF-16 code units. Some Unicode characters use multiple code units, and visible grapheme clusters may contain multiple code points.
+**Answer:** No. `length()` counts UTF-16 code units. Some Unicode characters use multiple code units, and visible grapheme clusters may contain multiple code points.
 
 **Q28. Can we override the String class?**
 
-No. String is final, so it cannot be subclassed.
+**Answer:** No. String is final, so it cannot be subclassed.
 
 **Q29. Why is String declared final?**
 
-It prevents subclasses from changing String's behavior and helps preserve its design guarantees.
+**Answer:** It prevents subclasses from changing String's behavior and helps preserve its design guarantees.
 
 **Q30. What is the difference between String and char array?**
 
-String is immutable, while a character array can be modified. Character arrays can be useful when handling sensitive data, although they still require careful memory management.
+**Answer:** String is immutable, while a character array can be modified. Character arrays can be useful when handling sensitive data, although they still require careful memory management.
 
 ---
 
@@ -2267,7 +2272,7 @@ String is immutable, while a character array can be modified. Character arrays c
 
 ---
 
-## 20. Key Takeaways
+## 19. Key Takeaways
 
 After completing this chapter, you should understand:
 

@@ -1,4 +1,11 @@
+---
+title: "Java JDBC Tutorial | Database Connectivity and Interview Questions"
+description: "Learn JDBC, SQL integration, transactions, pooling, and best practices with examples and interview answers."
+---
+
 # Chapter 13: JDBC (Java Database Connectivity)
+
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Multithreading](../12-Java-Multithreading/README.md)
 
 ## 1. Introduction to JDBC
 
@@ -2655,51 +2662,168 @@ try (Connection con = DataSourceConfig.getConnection()) {
 ### Basic Questions
 
 1. What is JDBC?
+
+**Answer:** JDBC is the Java API for connecting to relational databases, executing SQL, processing results, and managing transactions.
+
 2. Why do we use JDBC?
+
+**Answer:** JDBC provides a standard Java database API so applications can access relational databases through interchangeable drivers.
+
 3. What are the major components of JDBC?
+
+**Answer:** Major components include `DriverManager`/`DataSource`, `Connection`, statement types, `ResultSet`, and `SQLException`.
+
 4. What are the four types of JDBC drivers?
+
+**Answer:** The types are JDBC-ODBC bridge, native API, network protocol, and pure Java thin drivers; modern applications normally use Type 4.
+
 5. What is a JDBC URL?
+
+**Answer:** A JDBC URL identifies the driver protocol and database location and may include connection properties.
+
 6. What is DriverManager?
+
+**Answer:** `DriverManager` locates a registered JDBC driver and creates `Connection` objects from a URL and properties.
+
 7. What is the Connection interface?
+
+**Answer:** `Connection` represents a database session and provides statement creation, transaction control, metadata, and closure.
+
 8. What is the Statement interface?
+
+**Answer:** `Statement` executes static SQL strings and supports queries, updates, and batches; parameterized SQL should use `PreparedStatement`.
+
 9. What is ResultSet?
+
+**Answer:** `ResultSet` exposes query rows through a cursor that starts before the first row and advances with `next()`.
+
 10. What is SQLException?
+
+**Answer:** `SQLException` reports database or driver failures and provides a message, SQL state, vendor code, and chained exceptions.
 
 ### Intermediate Questions
 
 11. What is the difference between Statement and PreparedStatement?
+
+**Answer:** `Statement` executes SQL strings, while `PreparedStatement` uses placeholders, binds values safely, and can be reused.
+
 12. What is CallableStatement?
+
+**Answer:** `CallableStatement` invokes stored procedures and supports IN, OUT, and INOUT parameters.
+
 13. What is the difference between execute(), executeQuery(), and executeUpdate()?
+
+**Answer:** `executeQuery()` returns rows, `executeUpdate()` returns an affected-row count or DDL result, and `execute()` handles uncertain result types.
+
 14. What is the purpose of ResultSet.next()?
+
+**Answer:** `next()` moves the cursor to the next row and returns `true` when that row exists.
+
 15. What is SQL Injection?
+
+**Answer:** SQL injection occurs when untrusted input changes the structure of SQL after being concatenated into a command or identifier.
+
 16. How does PreparedStatement prevent SQL injection?
+
+**Answer:** `PreparedStatement` separates SQL structure from parameter values so input is bound as data rather than executable SQL syntax.
+
 17. What is batch processing in JDBC?
+
+**Answer:** Batch processing groups multiple SQL commands and executes them together for efficiency.
+
 18. What is transaction management?
+
+**Answer:** Transaction management groups database changes so they commit together or roll back together on failure.
+
 19. What are ACID properties?
+
+**Answer:** ACID means atomicity, consistency, isolation, and durability.
+
 20. What is the difference between commit() and rollback()?
+
+**Answer:** `commit()` makes transaction changes permanent; `rollback()` discards uncommitted changes.
+
 21. What is auto-commit mode?
+
+**Answer:** In auto-commit mode, each SQL statement is committed automatically after successful execution.
+
 22. What is DatabaseMetaData?
+
+**Answer:** `DatabaseMetaData` exposes database features, tables, schemas, supported properties, and driver capabilities.
+
 23. What is ResultSetMetaData?
+
+**Answer:** `ResultSetMetaData` describes result columns such as names, types, sizes, and nullability.
+
 24. What are IN, OUT, and INOUT parameters?
+
+**Answer:** IN passes values into a procedure, OUT returns values, and INOUT supplies a value and returns an updated one.
+
 25. What is a stored procedure?
+
+**Answer:** A stored procedure is database-side SQL/procedural code invoked through `CallableStatement`.
 
 ### Advanced Questions
 
 26. What is connection pooling?
+
+**Answer:** Connection pooling maintains reusable physical database connections behind a managed pool.
+
 27. Why is connection pooling important?
+
+**Answer:** Pooling avoids repeated connection setup costs and limits database connection resource usage under load.
+
 28. What is the DAO design pattern?
+
+**Answer:** DAO separates persistence operations behind an interface or class, keeping SQL/JDBC out of business logic.
+
 29. What is the difference between JDBC and ORM?
+
+**Answer:** JDBC is explicit SQL-level access; an ORM maps objects to tables and generates SQL through mapping metadata and sessions.
+
 30. What is the difference between JDBC and Hibernate?
+
+**Answer:** JDBC gives direct SQL control with minimal abstraction; Hibernate is an ORM that adds object mappings, sessions, caching, and generated SQL.
+
 31. What is the difference between a forward-only and scrollable ResultSet?
+
+**Answer:** A forward-only result set moves toward later rows; a scrollable one supports backward or absolute movement when the driver/database allows it.
+
 32. What are JDBC transaction isolation levels?
+
+**Answer:** JDBC isolation levels control transaction visibility of dirty, non-repeatable, and phantom reads; supported levels vary by database.
+
 33. What is the difference between Statement and PreparedStatement in terms of execution?
+
+**Answer:** `PreparedStatement` reuses parameterized SQL and binds values; `Statement` executes generally constructed SQL strings and is less safe for input.
+
 34. What is a generated key in JDBC?
+
+**Answer:** A generated key is a database-created value, commonly an identity or auto-increment ID, retrieved through `getGeneratedKeys()`.
+
 35. How can you execute multiple SQL statements efficiently?
+
+**Answer:** Use `PreparedStatement.addBatch()` and `executeBatch()` within an appropriate transaction, with bounded batch sizes.
+
 36. What happens when a database connection fails during a transaction?
+
+**Answer:** A connection failure ends the session and likely interrupts the transaction; stop work, roll back if possible, close resources, and retry or report according to policy.
+
 37. How do you handle database exceptions?
+
+**Answer:** Catch `SQLException`, log SQL state and vendor code with safe context, roll back on failure, and close resources with try-with-resources.
+
 38. Why should database credentials not be hardcoded?
+
+**Answer:** Hardcoded credentials can leak through source control and are difficult to rotate; use secrets or secure configuration management.
+
 39. How do you configure a JDBC connection pool?
+
+**Answer:** Configure a pool with the JDBC URL and credentials, initial/max size, validation query or connection validation, and appropriate timeouts.
+
 40. How would you design a scalable Java database access layer?
+
+**Answer:** Use DAOs and interfaces, PreparedStatements, try-with-resources, bounded transactions, pooling, indexes, timeouts, and centralized exception handling.
 
 ---
 

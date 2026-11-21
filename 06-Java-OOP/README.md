@@ -1,6 +1,11 @@
+---
+title: "Java OOP Tutorial: Classes, Inheritance, and Polymorphism"
+description: "Learn Java object-oriented programming with classes, encapsulation, inheritance, polymorphism, abstraction, examples, practice exercises, and interview answers."
+---
+
 # Chapter 6: Object-Oriented Programming (OOP) in Java
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Methods and Constructors](../05-Java-Methods-and-Constructors/README.md) | [Next: Arrays](../07-Java-Arrays/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Methods](../05-Java-Methods-and-Constructors/README.md) | [Next: Arrays](../07-Java-Arrays/README.md)
 
 **Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
 
@@ -210,7 +215,7 @@ Each object has its own copy of instance variables.
 
 ---
 
-# 4. Encapsulation in Java
+## 4. Encapsulation in Java
 
 Encapsulation is the process of combining data and the methods that operate on that data into a single unit (class), while controlling direct access to the internal data.
 
@@ -361,7 +366,7 @@ public void setAge(int age) {
 
 ---
 
-# 5. Inheritance in Java
+## 5. Inheritance in Java
 
 Inheritance is an OOP concept in which one class acquires accessible properties and behaviors from another class.
 
@@ -644,7 +649,7 @@ Java does not support hybrid inheritance through classes alone, but it can be ac
 
 ---
 
-# 6. The `super` Keyword in Java
+## 6. The `super` Keyword in Java
 
 The `super` keyword refers to the immediate parent class object.
 
@@ -795,7 +800,7 @@ Child constructor.
 
 ---
 
-# 7. Polymorphism in Java
+## 7. Polymorphism in Java
 
 Polymorphism means "many forms."
 
@@ -952,7 +957,7 @@ This behavior is called **dynamic method dispatch**.
 
 ---
 
-# 8. Abstraction in Java
+## 8. Abstraction in Java
 
 Abstraction means hiding unnecessary implementation details and exposing only the essential functionality.
 
@@ -1223,7 +1228,7 @@ The static method is called using the interface name.
 
 ---
 
-# 9. Abstract Class vs Interface
+## 9. Abstract Class vs Interface
 
 | Abstract Class | Interface |
 |---|---|
@@ -1249,7 +1254,7 @@ Example: `Runnable`, `Comparable`, `Serializable`.
 
 ---
 
-# 10. Multiple Inheritance Using Interfaces
+## 10. Multiple Inheritance Using Interfaces
 
 Java does not allow a class to extend multiple classes, but it allows a class to implement multiple interfaces.
 
@@ -1348,7 +1353,7 @@ class C implements A, B {
 
 ---
 
-# 11. Association, Aggregation, and Composition
+## 11. Association, Aggregation, and Composition
 
 These concepts describe relationships between objects.
 
@@ -1540,7 +1545,7 @@ Room exists inside the house.
 
 ---
 
-# 12. Access Modifiers in Java
+## 12. Access Modifiers in Java
 
 Access modifiers control the visibility of classes, variables, constructors, and methods.
 
@@ -1609,7 +1614,7 @@ public class AccessModifierExample {
 
 ---
 
-# 13. The `final` Keyword in Java
+## 13. The `final` Keyword in Java
 
 The `final` keyword is used to restrict modification.
 
@@ -1690,7 +1695,7 @@ final class Vehicle {
 
 ---
 
-# 14. Real-World OOP Example: Employee Management System
+## 14. Real-World OOP Example: Employee Management System
 
 This example combines classes, objects, encapsulation, inheritance, and method overriding.
 
@@ -1795,7 +1800,7 @@ Bonus: 7500.0
 
 ---
 
-# 15. Common Mistakes in OOP
+## 15. Common Mistakes in OOP
 
 | Mistake | Explanation |
 |---|---|
@@ -1812,95 +1817,95 @@ Bonus: 7500.0
 
 ---
 
-# 16. OOP Interview Questions
+## 16. OOP Interview Questions
 
-## Basic Questions
+### Basic Questions
 
 **Q1. What is OOP in Java?**
 
-OOP is a programming approach that organizes programs around classes and objects.
+**Answer:** OOP is a programming approach that organizes programs around classes and objects.
 
 **Q2. What is a class?**
 
-A class is a blueprint that defines the properties and behaviors of objects.
+**Answer:** A class is a blueprint that defines the properties and behaviors of objects.
 
 **Q3. What is an object?**
 
-An object is an instance of a class that has state, behavior, and identity.
+**Answer:** An object is an instance of a class that has state, behavior, and identity.
 
 **Q4. What are the four pillars of OOP?**
 
-Encapsulation, inheritance, polymorphism, and abstraction.
+**Answer:** Encapsulation, inheritance, polymorphism, and abstraction.
 
 **Q5. What is encapsulation?**
 
-Encapsulation combines data and related methods into a class and controls access to internal data.
+**Answer:** Encapsulation combines data and related methods into a class and controls access to internal data.
 
 **Q6. What is inheritance?**
 
-Inheritance allows a subclass to acquire accessible members from a superclass.
+**Answer:** Inheritance allows a subclass to acquire accessible members from a superclass.
 
 **Q7. What is polymorphism?**
 
-Polymorphism allows one interface or method name to represent different behaviors.
+**Answer:** Polymorphism allows one interface or method name to represent different behaviors.
 
 **Q8. What is abstraction?**
 
-Abstraction hides implementation details and exposes essential functionality.
+**Answer:** Abstraction hides implementation details and exposes essential functionality.
 
-## Intermediate Questions
+### Intermediate Questions
 
 **Q9. What is the difference between an abstract class and an interface?**
 
-An abstract class can maintain instance state and constructors. An interface defines a contract and, in Java 8, supports abstract, default, and static methods.
+**Answer:** An abstract class can maintain instance state and constructors. An interface defines a contract and, in Java 8, supports abstract, default, and static methods.
 
 **Q10. Does Java support multiple inheritance?**
 
-Java does not support multiple inheritance through classes, but a class can implement multiple interfaces.
+**Answer:** Java does not support multiple inheritance through classes, but a class can implement multiple interfaces.
 
 **Q11. What is method overriding?**
 
-Method overriding occurs when a subclass provides a compatible implementation of an inherited instance method.
+**Answer:** Method overriding occurs when a subclass provides a compatible implementation of an inherited instance method.
 
 **Q12. What is dynamic method dispatch?**
 
-It is the mechanism through which an overridden instance method is selected at runtime based on the actual object.
+**Answer:** It is the mechanism through which an overridden instance method is selected at runtime based on the actual object.
 
 **Q13. What is the use of `super`?**
 
-It is used to access parent class members and invoke a parent class constructor.
+**Answer:** It is used to access parent class members and invoke a parent class constructor.
 
 **Q14. What is the use of `this`?**
 
-It refers to the current object and can be used to access its members or invoke another constructor.
+**Answer:** It refers to the current object and can be used to access its members or invoke another constructor.
 
 **Q15. Can an abstract class have a constructor?**
 
-Yes. Its constructor is invoked as part of subclass object construction.
+**Answer:** Yes. Its constructor is invoked as part of subclass object construction.
 
 **Q16. Can an interface have a constructor?**
 
-No. Interfaces cannot be instantiated and do not have constructors.
+**Answer:** No. Interfaces cannot be instantiated and do not have constructors.
 
 **Q17. Can a final class be inherited?**
 
-No. A final class cannot be extended.
+**Answer:** No. A final class cannot be extended.
 
 **Q18. What is the difference between aggregation and composition?**
 
-Aggregation is a weak whole-part relationship in which parts can exist independently. Composition represents stronger ownership and lifecycle dependency.
+**Answer:** Aggregation is a weak whole-part relationship in which parts can exist independently. Composition represents stronger ownership and lifecycle dependency.
 
 **Q19. Can a constructor be overridden?**
 
-No. Constructors are not inherited, so they cannot be overridden.
+**Answer:** No. Constructors are not inherited, so they cannot be overridden.
 
 **Q20. Why is encapsulation important?**
 
-It protects internal data and provides controlled access through methods.
+**Answer:** It protects internal data and provides controlled access through methods.
 
 ---
 
-# 17. Practice Exercises
+## 17. Practice Exercises
 
 **Instructions:** Solve these questions independently. Do not skip the practical exercises. Create separate Java files and test your programs with different inputs.
 
@@ -1945,7 +1950,7 @@ It protects internal data and provides controlled access through methods.
 
 ---
 
-# 19. Key Takeaways
+## 18. Key Takeaways
 
 After completing this chapter, you should understand:
 

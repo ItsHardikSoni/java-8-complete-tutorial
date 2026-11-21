@@ -1,6 +1,11 @@
+---
+title: "Java Exception Handling Tutorial: try, catch, and Resources"
+description: "Learn Java exception handling with try-catch-finally, throw and throws, custom exceptions, try-with-resources, examples, exercises, and interview answers."
+---
+
 # Chapter 9: Exception Handling in Java
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Strings](../08-Java-Strings/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Strings](../08-Java-Strings/README.md) | [Next: Collections](../10-Java-Collections-Framework/README.md)
 
 **Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
 
@@ -1556,127 +1561,127 @@ try {
 
 **Q1. What is an exception in Java?**
 
-An exception is an event that interrupts the normal flow of program execution.
+**Answer:** An exception is an event that interrupts the normal flow of program execution.
 
 **Q2. What is exception handling?**
 
-Exception handling is a mechanism for detecting and managing exceptional conditions during program execution.
+**Answer:** Exception handling is a mechanism for detecting and managing exceptional conditions during program execution.
 
 **Q3. What is the difference between Error and Exception?**
 
-Error generally represents serious JVM or system-level problems, while exceptions represent conditions an application may be able to handle.
+**Answer:** Error generally represents serious JVM or system-level problems, while exceptions represent conditions an application may be able to handle.
 
 **Q4. What are checked exceptions?**
 
-Checked exceptions are exceptions that the compiler requires you to handle or declare.
+**Answer:** Checked exceptions are exceptions that the compiler requires you to handle or declare.
 
 **Q5. What are unchecked exceptions?**
 
-Unchecked exceptions are subclasses of RuntimeException and do not require mandatory handling or declaration.
+**Answer:** Unchecked exceptions are subclasses of RuntimeException and do not require mandatory handling or declaration.
 
 **Q6. What is the purpose of try?**
 
-It contains code that may throw an exception.
+**Answer:** It contains code that may throw an exception.
 
 **Q7. What is the purpose of catch?**
 
-It handles a matching exception thrown from the associated try block.
+**Answer:** It handles a matching exception thrown from the associated try block.
 
 **Q8. What is the purpose of finally?**
 
-It contains cleanup code that normally executes after try-catch processing.
+**Answer:** It contains cleanup code that normally executes after try-catch processing.
 
 **Q9. Can we have multiple catch blocks?**
 
-Yes. A try block can be followed by multiple catch blocks.
+**Answer:** Yes. A try block can be followed by multiple catch blocks.
 
 **Q10. Can we use try without catch?**
 
-Yes. A try block can be followed by finally without a catch block.
+**Answer:** Yes. A try block can be followed by finally without a catch block.
 
 ### Intermediate Questions
 
 **Q11. What is the difference between throw and throws?**
 
-`throw` explicitly throws an exception object, while `throws` declares exceptions that a method may pass to its caller.
+**Answer:** `throw` explicitly throws an exception object, while `throws` declares exceptions that a method may pass to its caller.
 
 **Q12. What is a custom exception?**
 
-A custom exception is an exception class created by the programmer for application-specific conditions.
+**Answer:** A custom exception is an exception class created by the programmer for application-specific conditions.
 
 **Q13. What is exception propagation?**
 
-It is the process of passing an exception from a method to its callers until it is handled.
+**Answer:** It is the process of passing an exception from a method to its callers until it is handled.
 
 **Q14. Can we write a try block inside another try block?**
 
-Yes. This is called nested try.
+**Answer:** Yes. This is called nested try.
 
 **Q15. Can finally execute if an exception occurs?**
 
-Yes. The finally block normally executes after the matching catch block.
+**Answer:** Yes. The finally block normally executes after the matching catch block.
 
 **Q16. Can we throw an exception manually?**
 
-Yes. We use the `throw` keyword.
+**Answer:** Yes. We use the `throw` keyword.
 
 **Q17. What is try-with-resources?**
 
-It is a Java feature that automatically closes resources implementing AutoCloseable.
+**Answer:** It is a Java feature that automatically closes resources implementing AutoCloseable.
 
 **Q18. What is the difference between Exception and RuntimeException?**
 
-RuntimeException is a subclass of Exception. RuntimeException and its subclasses are unchecked, while other direct and indirect subclasses of Exception are generally checked.
+**Answer:** RuntimeException is a subclass of Exception. RuntimeException and its subclasses are unchecked, while other direct and indirect subclasses of Exception are generally checked.
 
 **Q19. Can we catch multiple exception types in one catch block?**
 
-Yes. Java supports multi-catch using the `|` operator.
+**Answer:** Yes. Java supports multi-catch using the `|` operator.
 
 **Q20. Can we override a method and throw a broader checked exception?**
 
-No. An overriding method cannot declare a broader checked exception than the overridden method.
+**Answer:** No. An overriding method cannot declare a broader checked exception than the overridden method.
 
 ### Advanced Questions
 
 **Q21. What happens if an exception is not handled?**
 
-It reaches the thread's uncaught exception handler, which normally prints the stack trace and terminates that thread.
+**Answer:** It reaches the thread's uncaught exception handler, which normally prints the stack trace and terminates that thread.
 
 **Q22. Can a constructor throw an exception?**
 
-Yes. A constructor can throw checked or unchecked exceptions.
+**Answer:** Yes. A constructor can throw checked or unchecked exceptions.
 
 **Q23. Can we rethrow an exception?**
 
-Yes. We can catch an exception and throw it again.
+**Answer:** Yes. We can catch an exception and throw it again.
 
 **Q24. What is exception chaining?**
 
-Exception chaining means preserving an original exception as the cause of another exception.
+**Answer:** Exception chaining means preserving an original exception as the cause of another exception.
 
 **Q25. What is the difference between `getMessage()` and `printStackTrace()`?**
 
-`getMessage()` returns the exception message, while `printStackTrace()` prints exception details and the call stack.
+**Answer:** `getMessage()` returns the exception message, while `printStackTrace()` prints exception details and the call stack.
 
 **Q26. Can a finally block contain a return statement?**
 
-Yes, but it is discouraged because a return from finally can override a return or exception from the try or catch block.
+**Answer:** Yes, but it is discouraged because a return from finally can override a return or exception from the try or catch block.
 
 **Q27. Is it possible to handle an Error using try-catch?**
 
-Technically yes, because Error extends Throwable, but catching serious Error subclasses is generally not recommended as ordinary recovery.
+**Answer:** Technically yes, because Error extends Throwable, but catching serious Error subclasses is generally not recommended as ordinary recovery.
 
 **Q28. What is the purpose of AutoCloseable?**
 
-It defines a `close()` method for resources that can be automatically closed using try-with-resources.
+**Answer:** It defines a `close()` method for resources that can be automatically closed using try-with-resources.
 
 **Q29. What happens when both try and finally throw exceptions?**
 
-If finally throws a new exception while another exception is already propagating, the exception from finally can replace the original exception in ordinary try-finally processing.
+**Answer:** If finally throws a new exception while another exception is already propagating, the exception from finally can replace the original exception in ordinary try-finally processing.
 
 **Q30. Why should we avoid catching Throwable?**
 
-Throwable includes both Exception and Error. Catching it broadly can hide serious problems that the application is not designed to recover from.
+**Answer:** Throwable includes both Exception and Error. Catching it broadly can hide serious problems that the application is not designed to recover from.
 
 ---
 
@@ -1725,7 +1730,7 @@ Throwable includes both Exception and Error. Catching it broadly can hide seriou
 
 ---
 
-## 25. Key Takeaways
+## 24. Key Takeaways
 
 After completing this chapter, you should understand:
 

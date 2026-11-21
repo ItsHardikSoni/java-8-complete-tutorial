@@ -1,6 +1,12 @@
+---
+title: "Java Control Flow Statements Tutorial"
+description: "Learn Java if statements, switch, for and while loops, nested loops, break, continue, and return with examples."
+---
+
 # Chapter 4: Java Control Flow Statements – Decision Making and Loops
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Java Basics](../03-Java-Basics/README.md) | [Next: Methods and Constructors](../05-Java-Methods-and-Constructors/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Java Basics](../03-Java-Basics/README.md) | [Next: Methods and Constructors](../05-Java-Methods-and-Constructors/README.md)
+
 
 **Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
 
@@ -54,7 +60,7 @@ Let's understand each category with practical examples.
 
 ---
 
-# 4.2 Decision-Making Statements in Java
+## 4.2 Decision-Making Statements in Java
 
 Decision-making statements allow Java programs to execute different blocks of code depending on whether a condition is true or false.
 
@@ -884,7 +890,7 @@ For this tutorial, we will use traditional Java 8 switch statements.
 
 ---
 
-# 4.8 Looping Statements in Java
+## 4.8 Looping Statements in Java
 
 Until now, we have executed instructions based on conditions.
 
@@ -1794,7 +1800,7 @@ Important: Assigning a new value to the enhanced for loop variable does not repl
 
 ---
 
-# 4.15 Jump Statements in Java
+## 4.15 Jump Statements in Java
 
 Jump statements change the normal execution flow of a program.
 
@@ -2165,7 +2171,7 @@ Remember:
 
 ---
 
-# 4.19 Practical Java Programs
+## 4.19 Practical Java Programs
 
 Now let's combine the concepts we have learned and solve practical programming problems.
 
@@ -2727,7 +2733,7 @@ Number of Digits: 5
 
 ---
 
-# 4.20 Pattern Programming in Java
+## 4.20 Pattern Programming in Java
 
 Pattern programming is one of the best ways to understand nested loops.
 
@@ -2941,7 +2947,7 @@ public class FloydTriangle {
 
 ---
 
-# 4.21 Common Beginner Mistakes in Java
+## 4.21 Common Beginner Mistakes in Java
 
 When working with conditions and loops, beginners often make mistakes that result in incorrect output or infinite loops.
 
@@ -3100,7 +3106,7 @@ if (name.equals("Java")) {
 
 ---
 
-# 4.22 Java Interview Questions and Answers
+## 4.22 Java Interview Questions and Answers
 
 Here are important Java interview questions related to control flow statements and loops.
 
@@ -3250,7 +3256,7 @@ for (;;) {
 
 ---
 
-# 4.23 Practice Exercises
+## 4.23 Practice Exercises
 
 Now it's time to test your understanding.
 
@@ -3310,7 +3316,7 @@ Try solving these problems without looking at the solutions first.
 
 ---
 
-# 4.24 Practice Exercise Solutions
+## 4.24 Practice Exercise Solutions
 
 Here are solutions to selected exercises. Try solving each problem independently before checking the code.
 
@@ -3320,7 +3326,7 @@ This is a learning example, not a real banking implementation. Real financial ap
 
 ---
 
-# 4.25 Key Takeaways
+## 4.25 Key Takeaways
 
 Let's quickly revise the important concepts from this chapter.
 
@@ -3360,7 +3366,7 @@ Let's quickly revise the important concepts from this chapter.
 
 ---
 
-# What's Next?
+## What's Next?
 
 ## Chapter 5: Java Methods and Constructors
 

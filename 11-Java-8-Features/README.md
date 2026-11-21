@@ -1,4 +1,11 @@
+---
+title: "Java 8 Features Tutorial | Lambda, Streams and Interview Questions"
+description: "Learn Java 8 features with examples, practice exercises, and concise interview answers."
+---
+
 # Chapter 11: Java 8 Features
+
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Collections](../10-Java-Collections-Framework/README.md) | [Next: Multithreading](../12-Java-Multithreading/README.md)
 
 ## 1. Introduction to Java 8
 
@@ -2278,51 +2285,168 @@ public class Main {
 ### Basic Questions
 
 1. What is Java 8?
+
+**Answer:** Java 8 is a Java release that added lambda expressions and functional interfaces plus Streams, Optional, default methods, and the java.time API.
+
 2. What are the major features introduced in Java 8?
+
+**Answer:** Major features include lambdas, functional interfaces, built-in function types, method references, Streams, Optional, interface default/static methods, and the new Date/Time API.
+
 3. What is a Lambda Expression?
+
+**Answer:** A lambda expression is a concise implementation of a functional interface method, written as parameters, `->`, and a body.
+
 4. What is the syntax of a Lambda Expression?
+
+**Answer:** The syntax is `(parameters) -> expression` or `(parameters) -> { statements; }`; parameter types are often inferred.
+
 5. What is a Functional Interface?
+
+**Answer:** A functional interface has exactly one abstract method, although it may also declare default or static methods.
+
 6. What is a SAM interface?
+
+**Answer:** SAM means Single Abstract Method: an interface with one abstract method that can therefore be implemented by a lambda.
+
 7. What is the purpose of @FunctionalInterface?
+
+**Answer:** `@FunctionalInterface` documents intent and makes compilation fail if the interface has no or more than one abstract method.
+
 8. What is the difference between an anonymous inner class and a Lambda Expression?
+
+**Answer:** A lambda is a functional-interface implementation without an ordinary inner-class instance; an anonymous class creates a separate class instance and can hold fields.
+
 9. What is a Predicate?
+
+**Answer:** `Predicate<T>` represents a boolean test through `test(T)`.
+
 10. What is a Consumer?
+
+**Answer:** `Consumer<T>` represents an action that accepts a value and returns no result through `accept(T)`.
 
 ### Intermediate Questions
 
 11. What is a Supplier?
+
+**Answer:** `Supplier<T>` supplies a value without input through `get()`.
+
 12. What is a Function?
+
+**Answer:** `Function<T,R>` transforms an input of type `T` into a result of type `R` through `apply(T)`.
+
 13. What is the difference between Predicate and Function?
+
+**Answer:** `Predicate` returns boolean and is used for filtering or testing; `Function` returns a value and is used for transformation.
+
 14. What is a Method Reference?
+
+**Answer:** A method reference uses `::` as shorthand for a lambda that invokes an existing method.
+
 15. What are the types of Method References?
+
+**Answer:** The forms are static methods, an instance method on a specific object, an instance method on an arbitrary object of a type, and constructors.
+
 16. What is the Stream API?
+
+**Answer:** The Stream API provides lazy, functional-style pipelines for processing sequences from collections, arrays, or generators.
+
 17. What is the difference between a Collection and a Stream?
+
+**Answer:** A Collection stores data and is reusable; a Stream processes a source and cannot normally be reused after a terminal operation.
+
 18. What are intermediate and terminal operations?
+
+**Answer:** Intermediate operations return streams and are lazy; terminal operations consume the pipeline and produce a result or side effect.
+
 19. What is the difference between map() and flatMap()?
+
+**Answer:** `map()` performs a one-to-one transformation; `flatMap()` transforms each element to a stream and flattens all results.
+
 20. What is the difference between filter() and map()?
+
+**Answer:** `filter()` removes elements that fail a predicate; `map()` transforms each element.
+
 21. What is the purpose of reduce()?
+
+**Answer:** `reduce()` combines stream elements into one result using an accumulator operation.
+
 22. What is the difference between findFirst() and findAny()?
+
+**Answer:** `findFirst()` returns the first element in encounter order; `findAny()` may return any element and is more flexible for parallel streams.
+
 23. What is Optional?
+
+**Answer:** `Optional<T>` is a container that may hold a value, allowing absence to be represented without accidental null dereferences.
+
 24. What is the difference between orElse() and orElseGet()?
+
+**Answer:** `orElse()` takes a ready value and evaluates eagerly; `orElseGet()` invokes a supplier only when the Optional is empty.
+
 25. What are default methods in interfaces?
+
+**Answer:** Default methods provide interface implementations so libraries can evolve without breaking existing implementations.
 
 ### Advanced Questions
 
 26. What are static methods in interfaces?
+
+**Answer:** Static interface methods belong to the interface and are called through the interface name, not implementation instances.
+
 27. Why were default methods introduced in Java 8?
+
+**Answer:** Default methods support backward-compatible evolution of interfaces and shared behavior across implementations.
+
 28. What happens when two interfaces have the same default method?
+
+**Answer:** A class with conflicting inherited defaults must override the method explicitly or declare the abstract override to resolve the ambiguity.
+
 29. What is a parallel Stream?
+
+**Answer:** A parallel stream partitions work and executes it concurrently, usually using the Fork/Join common pool.
+
 30. What is the difference between sequential and parallel Streams?
+
+**Answer:** A sequential stream processes elements serially; a parallel stream may speed suitable workloads but adds synchronization and task overhead.
+
 31. What is lazy evaluation in Stream API?
+
+**Answer:** Lazy evaluation defers intermediate stream processing until a terminal operation starts, allowing operations to be fused.
+
 32. What is the difference between forEach() and forEachOrdered()?
+
+**Answer:** `forEach()` is terminal and does not guarantee encounter order for parallel streams; `forEachOrdered()` does preserve encounter order.
+
 33. What is the purpose of Collectors.groupingBy()?
+
+**Answer:** `Collectors.groupingBy()` collects elements into a map whose keys are classifier results.
+
 34. What is the difference between groupingBy() and partitioningBy()?
+
+**Answer:** `groupingBy()` creates groups for each key; `partitioningBy()` creates exactly true/false buckets using a predicate.
+
 35. What is the Java 8 Date and Time API?
+
+**Answer:** The Java 8 Date/Time API is the immutable, thread-safe `java.time` package for dates, times, durations, periods, and formatting.
+
 36. What is the difference between LocalDate and LocalDateTime?
+
+**Answer:** `LocalDate` contains only a date; `LocalDateTime` contains both date and time without a zone.
+
 37. What is the difference between Period and Duration?
+
+**Answer:** `Period` represents date-based calendar differences; `Duration` represents a machine-oriented time difference in seconds and nanoseconds.
+
 38. What is a method reference to a constructor?
+
+**Answer:** A constructor reference has the form `ClassName::new` and implements a functional interface that creates a new instance.
+
 39. What is Function chaining?
+
+**Answer:** Function chaining passes one function’s result into the next, using `andThen()` or `compose()`.
+
 40. Can a Functional Interface contain default and static methods?
+
+**Answer:** Yes; default and static methods are allowed because the functional-interface rule counts only abstract methods.
 
 ---
 
@@ -2383,7 +2507,7 @@ Completed solutions are available in the [Practice-Programs folder](Practice-Pro
 
 ---
 
-## 24. Chapter Summary
+## 23. Chapter Summary
 
 In this chapter, you learned:
 

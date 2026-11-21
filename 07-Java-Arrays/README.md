@@ -1,6 +1,11 @@
+---
+title: "Java Arrays Tutorial: Syntax, Operations, and Interview Questions"
+description: "Learn Java arrays with clear examples covering declaration, initialization, multidimensional arrays, searching, sorting, copying, practice exercises, and interview answers."
+---
+
 # Chapter 7: Arrays in Java
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Previous: OOP](../06-Java-OOP/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: OOP](../06-Java-OOP/README.md) | [Next: Strings](../08-Java-Strings/README.md)
 
 **Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
 
@@ -474,7 +479,7 @@ Array elements:
 
 ---
 
-# 9. One-Dimensional Array
+## 9. One-Dimensional Array
 
 A one-dimensional array stores elements in a single sequence.
 
@@ -553,7 +558,7 @@ Average = 30.0
 
 ---
 
-# 10. Two-Dimensional Arrays in Java
+## 10. Two-Dimensional Arrays in Java
 
 A two-dimensional array stores data in rows and columns.
 
@@ -727,7 +732,7 @@ Matrix:
 
 ---
 
-# 12. Multidimensional Arrays
+## 12. Multidimensional Arrays
 
 An array can have more than two dimensions.
 
@@ -812,7 +817,7 @@ public class ThreeDimensionalArray {
 
 ---
 
-# 13. Jagged Arrays in Java
+## 13. Jagged Arrays in Java
 
 A jagged array is a two-dimensional array in which each row can have a different number of columns.
 
@@ -885,7 +890,7 @@ public class JaggedArray {
 
 ---
 
-# 14. The `length` Property in Arrays
+## 14. The `length` Property in Arrays
 
 Java arrays have a built-in `length` property.
 
@@ -924,7 +929,7 @@ Remember that `length` is a property for arrays, not a method.
 
 ---
 
-# 15. The `Arrays` Utility Class
+## 15. The `Arrays` Utility Class
 
 Java provides the `java.util.Arrays` class to perform common array operations.
 
@@ -1024,7 +1029,7 @@ Element found at index: 2
 
 ---
 
-# 16. Searching in Arrays
+## 16. Searching in Arrays
 
 Searching means finding whether a particular element exists in an array and identifying its position.
 
@@ -1211,7 +1216,7 @@ Search for `50`.
 
 ---
 
-# 17. Sorting in Arrays
+## 17. Sorting in Arrays
 
 Sorting means arranging array elements in a particular order.
 
@@ -1417,7 +1422,7 @@ public class InsertionSort {
 
 ---
 
-# 18. Copying Arrays in Java
+## 18. Copying Arrays in Java
 
 Arrays are objects. Assigning one array reference to another does not create a new array.
 
@@ -1513,7 +1518,7 @@ public class ArrayCopyMethod {
 
 ---
 
-# 19. Passing Arrays to Methods
+## 19. Passing Arrays to Methods
 
 Arrays can be passed as arguments to methods.
 
@@ -1587,7 +1592,7 @@ public class ReturnArray {
 
 ---
 
-# 20. Important Array Programs
+## 20. Important Array Programs
 
 ### Program 1: Find the Largest Element
 
@@ -1948,7 +1953,7 @@ public class MatrixAddition {
 
 ---
 
-# 21. Common Array Exceptions
+## 21. Common Array Exceptions
 
 Java provides runtime exceptions when array operations are invalid.
 
@@ -2001,7 +2006,7 @@ values[1] = 100;
 
 ---
 
-# 22. Common Mistakes in Arrays
+## 22. Common Mistakes in Arrays
 
 | Mistake | Explanation |
 |---|---|
@@ -2017,95 +2022,95 @@ values[1] = 100;
 
 ---
 
-# 23. Arrays Interview Questions
+## 23. Arrays Interview Questions
 
-## Basic Questions
+### Basic Questions
 
 **Q1. What is an array in Java?**
 
-An array is an object that stores a fixed number of elements of the same declared component type.
+**Answer:** An array is an object that stores a fixed number of elements of the same declared component type.
 
 **Q2. What is the default index of an array?**
 
-Array indexing starts from zero.
+**Answer:** Array indexing starts from zero.
 
 **Q3. What is the default value of an integer array?**
 
-The default value of each `int` element is zero.
+**Answer:** The default value of each `int` element is zero.
 
 **Q4. What is the maximum index of an array?**
 
-For an array of length `n`, the maximum valid index is `n - 1`.
+**Answer:** For an array of length `n`, the maximum valid index is `n - 1`.
 
 **Q5. Are arrays objects in Java?**
 
-Yes. Arrays are objects created at runtime.
+**Answer:** Yes. Arrays are objects created at runtime.
 
 **Q6. Can an array store different data types?**
 
-A primitive array stores values of one primitive type. An object array stores references compatible with its declared component type.
+**Answer:** A primitive array stores values of one primitive type. An object array stores references compatible with its declared component type.
 
 **Q7. Can we change the size of an array after creation?**
 
-No. Its length is fixed after creation.
+**Answer:** No. Its length is fixed after creation.
 
 **Q8. What is a multidimensional array?**
 
-It is an array whose elements are themselves arrays.
+**Answer:** It is an array whose elements are themselves arrays.
 
-## Intermediate Questions
+### Intermediate Questions
 
 **Q9. What is a jagged array?**
 
-A jagged array is a multidimensional array whose rows can have different lengths.
+**Answer:** A jagged array is a multidimensional array whose rows can have different lengths.
 
 **Q10. What is the difference between length and size()?**
 
-`length` is a property of arrays, while `size()` is a method used by collections such as ArrayList.
+**Answer:** `length` is a property of arrays, while `size()` is a method used by collections such as ArrayList.
 
 **Q11. What is the difference between Linear Search and Binary Search?**
 
-Linear search checks elements one by one. Binary search repeatedly divides a sorted search range into halves.
+**Answer:** Linear search checks elements one by one. Binary search repeatedly divides a sorted search range into halves.
 
 **Q12. What is the time complexity of Linear Search?**
 
-Its worst-case time complexity is O(n).
+**Answer:** Its worst-case time complexity is O(n).
 
 **Q13. What is the time complexity of Binary Search?**
 
-Its worst-case time complexity is O(log n).
+**Answer:** Its worst-case time complexity is O(log n).
 
 **Q14. What is the purpose of Arrays.sort()?**
 
-It sorts array elements into ascending order for primitive arrays and uses the applicable natural ordering for object arrays.
+**Answer:** It sorts array elements into ascending order for primitive arrays and uses the applicable natural ordering for object arrays.
 
 **Q15. What is the purpose of Arrays.toString()?**
 
-It converts a one-dimensional array into a readable String representation.
+**Answer:** It converts a one-dimensional array into a readable String representation.
 
 **Q16. What is the difference between array reference assignment and array copying?**
 
-Reference assignment makes two variables point to the same array. Copying creates a separate array.
+**Answer:** Reference assignment makes two variables point to the same array. Copying creates a separate array.
 
 **Q17. Can we pass an array to a method?**
 
-Yes. Arrays can be passed as method arguments.
+**Answer:** Yes. Arrays can be passed as method arguments.
 
 **Q18. Can a method return an array?**
 
-Yes. A method can return an array reference.
+**Answer:** Yes. A method can return an array reference.
 
 **Q19. What is ArrayIndexOutOfBoundsException?**
 
-It is a runtime exception that occurs when an invalid array index is accessed.
+**Answer:** It is a runtime exception that occurs when an invalid array index is accessed.
 
 **Q20. Is an array dynamically resizable?**
 
-No. Java arrays have a fixed length. For dynamically resizable collections, Java provides ArrayList and other collection classes.
+**Answer:** No. Java arrays have a fixed length. For dynamically resizable collections, Java provides ArrayList and other collection classes.
 
 ---
 
-# 24. Practice Exercises
+## 24. Practice Exercises
 
 **Instructions:** Solve the following exercises independently. Write separate Java programs, test your code, and analyze the time complexity wherever applicable.
 
@@ -2160,7 +2165,7 @@ No. Java arrays have a fixed length. For dynamically resizable collections, Java
 
 ---
 
-# 26. Key Takeaways
+## 25. Key Takeaways
 
 After completing this chapter, you should understand:
 

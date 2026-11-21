@@ -1,3 +1,9 @@
+---
+title: "Java 8 Complete Tutorial | Core Java, OOP, JDBC and Practice Programs"
+description: "Learn Java 8 step by step with beginner-friendly tutorials, practical examples, interview answers, practice exercises, and source code for Chapters 1–13."
+keywords: "Java 8 tutorial, Core Java, Java OOP, Java strings, exception handling, collections, multithreading, JDBC, Java practice programs"
+---
+
 # ☕ Java 8 Tutorial – Complete Java Programming Guide
 
 Welcome to the **Java 8 Tutorial Repository!** 🚀

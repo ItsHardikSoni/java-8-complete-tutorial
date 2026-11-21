@@ -1,6 +1,12 @@
+---
+title: "Java 8 Installation and Environment Setup"
+description: "Install Java 8 JDK, configure JAVA_HOME and PATH, use IDEs, and compile and run Java programs."
+---
+
 # 2. Java Installation and Environment Setup ☕
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Previous: Introduction](../01-Introduction-to-Java/README.md) | [Next: Java Basics](../03-Java-Basics/README.md)
+
 
 **Examples:** [HelloWorld.java](HelloWorld.java)
 
@@ -386,15 +392,25 @@ Verify that the JDK is installed and add its `bin` directory to PATH.
 Try answering these questions to test your understanding.
 
 1. What is JDK?
+   **Answer:** JDK is the Java Development Kit, a development package that includes the compiler, launcher, libraries, tools, and a JRE needed to build and run Java applications.
 2. Why do we need to install JDK before developing Java applications?
+   **Answer:** The JDK provides the compiler and tools that convert Java source code into bytecode and support application development.
 3. What is the difference between `java` and `javac`?
+   **Answer:** `javac` compiles `.java` source files into `.class` bytecode, while `java` starts the JVM to run a compiled Java application or class.
 4. What is JAVA_HOME?
+   **Answer:** JAVA_HOME is an environment variable that identifies the JDK installation directory.
 5. Why do we configure the PATH variable?
+   **Answer:** PATH lets the operating system find commands such as `java`, `javac`, and `javadoc` without requiring their full installation paths.
 6. What is an IDE?
+   **Answer:** An IDE is an integrated development environment that combines a code editor, compiler or build integration, debugger, and project tools.
 7. What is the extension of a Java source file?
+   **Answer:** A Java source file uses the `.java` extension.
 8. What is the extension of a compiled Java bytecode file?
+   **Answer:** A compiled Java class file uses the `.class` extension.
 9. Which command is used to check the Java version?
+   **Answer:** Use `java -version` to check the runtime version and `javac -version` to check the compiler version.
 10. How do you compile and execute a Java program using the terminal?
+   **Answer:** Use `javac Main.java` to compile it, then `java Main` to execute the `Main` class.
 
 ## 2.13 Key Takeaways
 
