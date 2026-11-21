@@ -1,4 +1,4 @@
-public class FinalKeyword {
+class FinalKeyword {
 
     // Constant
     static final double PI = 3.14159;

@@ -2,7 +2,7 @@
  * Java Syntax Demonstration
  * This program explains the basic structure of Java.
  */
-public class JavaSyntax {
+class JavaSyntax {
 
     public static void main(String[] args) {
 

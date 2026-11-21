@@ -1,4 +1,4 @@
-public class OperatorPrecedence {
+class OperatorPrecedence {
 
     public static void main(String[] args) {
 
