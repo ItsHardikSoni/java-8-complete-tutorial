@@ -1,23 +1,24 @@
 import java.util.Scanner;
 
-public class EvenOrOdd {
-
+public class SwapNumbers {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the first number (a): ");
+        int a = scanner.nextInt();
 
-        System.out.print("Enter a number: ");
-        int number = sc.nextInt();
+        System.out.print("Enter the second number (b): ");
+        int b = scanner.nextInt();
 
-        if (number % 2 == 0) {
+        System.out.println("Before swapping: a = " + a + ", b = " + b);
 
-            System.out.println(number + " is Even");
+        // Swapping logic using a temporary variable
+        int temp = a;
+        a = b;
+        b = temp;
 
-        } else {
+        System.out.println("After swapping: a = " + a + ", b = " + b);
 
-            System.out.println(number + " is Odd");
-        }
-
-        sc.close();
+        scanner.close();
     }
 }
