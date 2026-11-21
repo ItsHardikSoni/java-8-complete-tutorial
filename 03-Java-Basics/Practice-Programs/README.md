@@ -32,13 +32,13 @@ All programs are written using Java 8 and include practical examples.
 **Step 3:** Compile the Java file.
 
 ```bash
-javac HelloWorld.java
+javac 01-StudentDetails.java
 ```
 
 **Step 4:** Execute the program.
 
 ```bash
-java HelloWorld
+java StudentDetails
 ```
 
 ## Learning Objectives

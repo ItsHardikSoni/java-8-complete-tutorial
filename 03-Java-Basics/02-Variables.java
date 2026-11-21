@@ -1,4 +1,4 @@
-public class Variables {
+class Variables {
 
     // Instance variable
     String studentName;

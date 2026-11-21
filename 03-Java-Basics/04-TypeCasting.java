@@ -1,4 +1,4 @@
-public class TypeCasting {
+class TypeCasting {
 
     public static void main(String[] args) {
 

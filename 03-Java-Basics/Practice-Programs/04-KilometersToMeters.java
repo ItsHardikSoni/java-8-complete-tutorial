@@ -1,4 +1,4 @@
-public class KilometersToMeters {
+class KilometersToMeters {
 
     public static void main(String[] args) {
 

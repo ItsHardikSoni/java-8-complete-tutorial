@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AverageOfFiveNumbers {
+class AverageOfFiveNumbers {
 
     public static void main(String[] args) {
 

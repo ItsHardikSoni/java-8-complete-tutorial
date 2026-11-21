@@ -141,4 +141,6 @@ Suggestions, improvements, and contributions are welcome! Feel free to fork this
 
 *Learn Java step by step. Practice consistently. Build something amazing.*
 
-#Java #Java8 #JavaProgramming #CoreJava #LearnJava #JavaTutorial #JDBC #LambdaExpressions #StreamAPI #JavaDeveloper
+#Java #Java8 #JavaProgramming #CoreJava #LearnJava #JavaTutorial #JDBC #LambdaExpressions #StreamAPI #JavaDeveloper #java-tutorial
+
+java java8 java-tutorial core-java java-programming learn-java java-for-beginners java-8-features lambda-expressions stream-api functional-programming java-examples java-interview-questions programming-tutorial java8tutorial java 8 tutorial
