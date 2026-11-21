@@ -1,8 +1,3 @@
----
-title: "Java JDBC Tutorial | Database Connectivity and Interview Questions"
-description: "Learn JDBC, SQL integration, transactions, pooling, and best practices with examples and interview answers."
----
-
 # Chapter 13: JDBC (Java Database Connectivity)
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Multithreading](../12-Java-Multithreading/README.md)

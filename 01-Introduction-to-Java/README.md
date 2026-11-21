@@ -1,8 +1,3 @@
----
-title: "Introduction to Java Programming"
-description: "Learn Java fundamentals, platform independence, JVM, JRE, JDK, and run your first Java Hello World program."
----
-
 # 1. Introduction to Java Programming ☕
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Next: Java Installation](../02-Java-Installation-and-Setup/README.md)

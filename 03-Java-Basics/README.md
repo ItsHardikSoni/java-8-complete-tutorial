@@ -1,8 +1,3 @@
----
-title: "Java Basics Tutorial for Beginners"
-description: "Learn Java 8 syntax, variables, primitive and reference types, operators, type casting, and Scanner input."
----
-
 # Chapter 3: Java Basics – Syntax, Variables, Data Types, and Operators
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Installation](../02-Java-Installation-and-Setup/README.md) | [Next: Control Flow](../04-Java-Control-Flow/README.md)

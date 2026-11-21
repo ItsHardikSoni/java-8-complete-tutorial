@@ -1,8 +1,3 @@
----
-title: "Java OOP Tutorial: Classes, Inheritance, and Polymorphism"
-description: "Learn Java object-oriented programming with classes, encapsulation, inheritance, polymorphism, abstraction, examples, practice exercises, and interview answers."
----
-
 # Chapter 6: Object-Oriented Programming (OOP) in Java
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Methods](../05-Java-Methods-and-Constructors/README.md) | [Next: Arrays](../07-Java-Arrays/README.md)

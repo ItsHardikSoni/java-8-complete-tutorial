@@ -1,8 +1,3 @@
----
-title: "Java Arrays Tutorial: Syntax, Operations, and Interview Questions"
-description: "Learn Java arrays with clear examples covering declaration, initialization, multidimensional arrays, searching, sorting, copying, practice exercises, and interview answers."
----
-
 # Chapter 7: Arrays in Java
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: OOP](../06-Java-OOP/README.md) | [Next: Strings](../08-Java-Strings/README.md)

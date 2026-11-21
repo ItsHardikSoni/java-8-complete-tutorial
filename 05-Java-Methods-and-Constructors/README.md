@@ -1,8 +1,3 @@
----
-title: "Java Methods and Constructors Tutorial"
-description: "Learn Java method declaration, overloading, static and instance methods, constructors, recursion, and pass-by-value."
----
-
 # Chapter 5: Methods and Constructors in Java
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Control Flow](../04-Java-Control-Flow/README.md) | [Next: OOP](../06-Java-OOP/README.md)

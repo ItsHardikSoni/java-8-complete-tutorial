@@ -1,18 +1,14 @@
----
-title: "Java 8 Complete Tutorial | Core Java, OOP, JDBC and Practice Programs"
-description: "Learn Java 8 step by step with beginner-friendly tutorials, practical examples, interview answers, practice exercises, and source code for Chapters 1–13."
-keywords: "Java 8 tutorial, Core Java, Java OOP, Java strings, exception handling, collections, multithreading, JDBC, Java practice programs"
----
-
 # ☕ Java 8 Tutorial – Complete Java Programming Guide
 
-Welcome to the **Java 8 Tutorial Repository!** 🚀
+Welcome to the Java 8 Complete Tutorial repository!
 
-This repository is a complete **Java Programming Tutorial** designed for beginners, students, and aspiring Java developers who want to learn Java from basics to advanced concepts.
+This repository is a structured learning resource for students, beginners, and aspiring Java developers who want to learn Java programming from fundamentals to advanced concepts.
 
-Learn **Core Java, Object-Oriented Programming (OOP), Java 8 Features, JDBC, and Advanced Java Concepts** with practical examples, hands-on coding exercises, and easy-to-understand explanations.
+Explore Core Java, Object-Oriented Programming (OOP), Collections Framework, Exception Handling, Java 8 Features, Multithreading, JDBC, and more through detailed explanations and practical programming examples.
 
-Whether you are preparing for Java developer interviews, college examinations, coding assessments, or building your programming skills, this repository provides a structured learning path to master Java.
+Whether you are learning Java for college, preparing for technical interviews, or improving your programming skills, this repository provides a structured learning path.
+
+*Start learning: Explore the chapter-wise index below and follow the tutorials step by step.*
 
 ## 🗂️ Complete Learning Index
 
@@ -392,6 +388,16 @@ By completing this tutorial, you will be able to:
 - **Database Connectivity:** JDBC
 - **IDE:** IntelliJ IDEA, Eclipse, or VS Code
 
+## 📄 License
+
+- **Source code and Java examples:** [MIT License](LICENSE)
+- **Documentation and educational text:** [Creative Commons Attribution 4.0 International](LICENSE-DOCUMENTATION)
+
+- **License scope:**
+- MIT License applies to original source code and Java examples.
+- CC BY 4.0 applies to original educational documentation and written tutorials.
+- Third-party materials retain their respective licenses and copyrights.
+
 ## ⭐ Why Star This Repository?
 
 If you find this Java tutorial helpful, consider giving this repository a ⭐ Star on GitHub. Your support motivates me to keep improving the content and adding more practical examples.
@@ -405,7 +411,3 @@ Suggestions, improvements, and contributions are welcome! Feel free to fork this
 **Happy Learning & Happy Coding!** ☕💻
 
 *Learn Java step by step. Practice consistently. Build something amazing.*
-
-#Java #Java8 #JavaProgramming #CoreJava #LearnJava #JavaTutorial #JDBC #LambdaExpressions #StreamAPI #JavaDeveloper #java-tutorial
-
-java java8 java-tutorial core-java java-programming learn-java java-for-beginners java-8-features lambda-expressions stream-api functional-programming java-examples java-interview-questions programming-tutorial java8tutorial java 8 tutorial

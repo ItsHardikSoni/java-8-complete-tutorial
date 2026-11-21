@@ -1,8 +1,3 @@
----
-title: "Java Control Flow Statements Tutorial"
-description: "Learn Java if statements, switch, for and while loops, nested loops, break, continue, and return with examples."
----
-
 # Chapter 4: Java Control Flow Statements – Decision Making and Loops
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Java Basics](../03-Java-Basics/README.md) | [Next: Methods and Constructors](../05-Java-Methods-and-Constructors/README.md)

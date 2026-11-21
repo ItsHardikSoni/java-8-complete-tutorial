@@ -1,8 +1,3 @@
----
-title: "Java String Tutorial: String, StringBuilder, and StringBuffer"
-description: "Learn Java String handling with literals, immutability, common methods, StringBuilder, StringBuffer, regex, examples, practice exercises, and interview answers."
----
-
 # Chapter 8: Strings in Java
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Arrays](../07-Java-Arrays/README.md) | [Next: Exception Handling](../09-Java-Exception-Handling/README.md)

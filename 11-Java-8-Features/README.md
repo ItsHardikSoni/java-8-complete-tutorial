@@ -1,8 +1,3 @@
----
-title: "Java 8 Features Tutorial | Lambda, Streams and Interview Questions"
-description: "Learn Java 8 features with examples, practice exercises, and concise interview answers."
----
-
 # Chapter 11: Java 8 Features
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Collections](../10-Java-Collections-Framework/README.md) | [Next: Multithreading](../12-Java-Multithreading/README.md)
