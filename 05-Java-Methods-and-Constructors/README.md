@@ -1,10 +1,16 @@
+---
+title: "Java Methods and Constructors Tutorial"
+description: "Learn Java method declaration, overloading, static and instance methods, constructors, recursion, and pass-by-value."
+---
+
 # Chapter 5: Methods and Constructors in Java
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Control Flow](../04-Java-Control-Flow/README.md) | [Next: OOP](../06-Java-OOP/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Control Flow](../04-Java-Control-Flow/README.md) | [Next: OOP](../06-Java-OOP/README.md)
+
 
 **Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
 
-## 1. Introduction to Methods in Java
+## 5.1 Introduction to Methods in Java
 
 A method is a block of code that performs a specific task. Instead of writing the same code repeatedly, we can create a method and call it whenever required.
 
@@ -29,7 +35,7 @@ Using methods, we can write the logic once and reuse it.
 
 ---
 
-## 2. Method Declaration and Definition
+## 5.2 Method Declaration and Definition
 
 A method generally consists of the following parts:
 
@@ -84,11 +90,11 @@ Welcome to Java Programming!
 
 ---
 
-## 3. Types of Methods in Java
+## 5.3 Types of Methods in Java
 
 Methods can be classified in different ways depending on their parameters, return values, and whether they belong to a class or an object.
 
-### 3.1 Predefined Methods
+### 5.3.1 Predefined Methods
 
 Predefined methods are methods already provided by Java's standard library.
 
@@ -134,7 +140,7 @@ Some commonly used predefined methods:
 | `Math.sqrt()` | Calculates square root |
 | `Math.pow()` | Calculates power |
 
-### 3.2 User-Defined Methods
+### 5.3.2 User-Defined Methods
 
 User-defined methods are methods created by programmers to perform specific tasks.
 
@@ -159,11 +165,11 @@ public class UserDefinedMethod {
 
 ---
 
-## 4. Methods Based on Parameters and Return Values
+## 5.4 Methods Based on Parameters and Return Values
 
 Methods can be divided into four common categories.
 
-### 4.1 No Parameters and No Return Value
+### 5.4.1 No Parameters and No Return Value
 
 A method that does not accept any input and does not return any value.
 
@@ -189,7 +195,7 @@ public class MethodExample1 {
 Hello Java
 ```
 
-### 4.2 Parameters but No Return Value
+### 5.4.2 Parameters but No Return Value
 
 A method that accepts input but does not return a result.
 
@@ -217,7 +223,7 @@ public class MethodExample2 {
 Sum = 30
 ```
 
-### 4.3 No Parameters but Returns a Value
+### 5.4.3 No Parameters but Returns a Value
 
 A method that does not accept input but returns a result.
 
@@ -245,7 +251,7 @@ public class MethodExample3 {
 Number = 100
 ```
 
-### 4.4 Parameters and Returns a Value
+### 5.4.4 Parameters and Returns a Value
 
 A method that accepts input and returns a result.
 
@@ -284,7 +290,7 @@ Multiplication = 20
 
 ---
 
-## 5. Static Methods in Java
+## 5.5 Static Methods in Java
 
 A static method belongs to the class rather than an individual object.
 
@@ -350,7 +356,7 @@ Count = 10
 
 ---
 
-## 6. Instance Methods in Java
+## 5.6 Instance Methods in Java
 
 An instance method belongs to an object of a class.
 
@@ -394,7 +400,7 @@ This is an instance method.
 
 ---
 
-## 7. Method Parameters and Arguments
+## 5.7 Method Parameters and Arguments
 
 Parameters and arguments are related, but they are not the same.
 
@@ -435,7 +441,7 @@ In this example:
 
 ---
 
-## 8. Method Overloading in Java
+## 5.8 Method Overloading in Java
 
 Method overloading means creating multiple methods with the same name but different parameter lists within the same class.
 
@@ -565,7 +571,7 @@ Both methods have the same name and parameter list. The compiler cannot distingu
 
 ---
 
-## 9. Constructors in Java
+## 5.9 Constructors in Java
 
 A constructor is a special member of a class that initializes an object when it is created.
 
@@ -646,11 +652,11 @@ Age: 22
 
 ---
 
-## 10. Types of Constructors in Java
+## 5.10 Types of Constructors in Java
 
 Java constructors are commonly discussed in two main categories: no-argument constructors and parameterized constructors.
 
-### 10.1 Default Constructor
+### 5.10.1 Default Constructor
 
 If a class does not declare any constructor, the Java compiler provides a default no-argument constructor.
 
@@ -695,7 +701,7 @@ null
 
 **Important:** The compiler provides this constructor only when you do not declare any constructor yourself.
 
-### 10.2 No-Argument Constructor
+### 5.10.2 No-Argument Constructor
 
 A no-argument constructor is a constructor explicitly written by the programmer without parameters.
 
@@ -731,7 +737,7 @@ public class NoArgumentConstructor {
 Java Developer
 ```
 
-### 10.3 Parameterized Constructor
+### 5.10.3 Parameterized Constructor
 
 A parameterized constructor accepts arguments to initialize an object with specific values.
 
@@ -793,7 +799,7 @@ Age: 21
 
 ---
 
-## 11. Constructor Overloading
+## 5.11 Constructor Overloading
 
 Constructor overloading means defining multiple constructors in the same class with different parameter lists.
 
@@ -868,13 +874,13 @@ Rahul - 22
 
 ---
 
-## 12. The `this` Keyword in Java
+## 5.12 The `this` Keyword in Java
 
 The `this` keyword refers to the current object of a class.
 
 It is commonly used when instance variables and constructor or method parameters have the same name.
 
-### 12.1 Using `this` to Access Instance Variables
+### 5.12.1 Using `this` to Access Instance Variables
 
 ```java
 public class ThisKeyword {
@@ -922,7 +928,7 @@ Ayush
 - `this.age` refers to the instance variable.
 - `age` refers to the constructor parameter.
 
-### 12.2 Using `this()` to Call Another Constructor
+### 5.12.2 Using `this()` to Call Another Constructor
 
 The `this()` keyword can call another constructor in the same class.
 
@@ -973,7 +979,7 @@ Unknown 0
 2. A constructor cannot directly call itself using `this()`.
 3. A constructor cannot use both `this()` and `super()` explicitly as its first constructor invocation.
 
-### 12.3 Using `this` to Call an Instance Method
+### 5.12.3 Using `this` to Call an Instance Method
 
 ```java
 public class ThisMethod {
@@ -1007,7 +1013,7 @@ Hello Java
 
 ---
 
-## 13. Difference Between Constructor and Method
+## 5.13 Difference Between Constructor and Method
 
 Constructors and methods both contain code, but their purposes are different.
 
@@ -1022,7 +1028,7 @@ Constructors and methods both contain code, but their purposes are different.
 
 ---
 
-## 14. Pass by Value in Java
+## 5.14 Pass by Value in Java
 
 Java always uses **pass by value**.
 
@@ -1032,7 +1038,7 @@ For primitive variables, the actual primitive value is copied.
 
 For objects, the value of the reference is copied. Both the original reference and copied reference can refer to the same object.
 
-### 14.1 Pass by Value with Primitive Data Types
+### 5.14.1 Pass by Value with Primitive Data Types
 
 ```java
 public class PassByValue {
@@ -1064,7 +1070,7 @@ public class PassByValue {
 
 The method receives a copy of `value`. Changing the copied variable does not change the original variable.
 
-### 14.2 Pass by Value with Objects
+### 5.14.2 Pass by Value with Objects
 
 ```java
 class Student {
@@ -1108,7 +1114,7 @@ Java still passes the reference by value; it does not pass objects by reference.
 
 ---
 
-## 15. Recursion in Java
+## 5.15 Recursion in Java
 
 Recursion is a programming technique in which a method calls itself to solve a problem.
 
@@ -1251,7 +1257,7 @@ public class FibonacciRecursion {
 
 ---
 
-## 16. Practical Real-World Examples Using Methods and Constructors
+## 5.16 Practical Real-World Examples Using Methods and Constructors
 
 ### Example 1: Student Management
 
@@ -1444,7 +1450,7 @@ public class Calculator {
 
 ---
 
-## 17. Common Mistakes in Methods and Constructors
+## 5.17 Common Mistakes in Methods and Constructors
 
 | Mistake | Explanation |
 |---|---|
@@ -1459,75 +1465,75 @@ public class Calculator {
 
 ---
 
-## 18. Java Methods and Constructors Interview Questions
+## 5.18 Java Methods and Constructors Interview Questions
 
 ### Basic Questions
 
 **Q1. What is a method in Java?**
 
-A method is a block of code that performs a particular task and can be called whenever required.
+**Answer:** A method is a block of code that performs a particular task and can be called whenever required.
 
 **Q2. What is a constructor?**
 
-A constructor is a special class member used to initialize an object when it is created.
+**Answer:** A constructor is a special class member used to initialize an object when it is created.
 
 **Q3. What is the difference between a method and a constructor?**
 
-A constructor initializes an object, whereas a method performs a particular operation. Constructors have the same name as their class and no return type.
+**Answer:** A constructor initializes an object, whereas a method performs a particular operation. Constructors have the same name as their class and no return type.
 
 **Q4. Can a constructor be overloaded?**
 
-Yes. A class can have multiple constructors with different parameter lists.
+**Answer:** Yes. A class can have multiple constructors with different parameter lists.
 
 **Q5. Can a constructor be static?**
 
-No. Constructors cannot be declared static because they initialize objects.
+**Answer:** No. Constructors cannot be declared static because they initialize objects.
 
 **Q6. Can a constructor be private?**
 
-Yes. Private constructors are useful in patterns such as Singleton and utility classes.
+**Answer:** Yes. Private constructors are useful in patterns such as Singleton and utility classes.
 
 **Q7. Can we call a constructor directly like a method?**
 
-No. Constructors are invoked during object creation or constructor chaining.
+**Answer:** No. Constructors are invoked during object creation or constructor chaining.
 
 ### Intermediate Questions
 
 **Q8. What is method overloading?**
 
-Method overloading means defining multiple methods with the same name but different parameter lists.
+**Answer:** Method overloading means defining multiple methods with the same name but different parameter lists.
 
 **Q9. What is the difference between static and instance methods?**
 
-Static methods belong to the class, whereas instance methods belong to objects.
+**Answer:** Static methods belong to the class, whereas instance methods belong to objects.
 
 **Q10. Can we overload the main() method?**
 
-Yes. However, the JVM starts program execution using the standard `public static void main(String[] args)` entry point.
+**Answer:** Yes. However, the JVM starts program execution using the standard `public static void main(String[] args)` entry point.
 
 **Q11. Can a method return multiple values?**
 
-A Java method can return one value. To represent multiple values, we can return an object, an array, or a collection.
+**Answer:** A Java method can return one value. To represent multiple values, we can return an object, an array, or a collection.
 
 **Q12. Is Java pass-by-value or pass-by-reference?**
 
-Java is always pass-by-value. For objects, the copied value is the object reference.
+**Answer:** Java is always pass-by-value. For objects, the copied value is the object reference.
 
 **Q13. What is recursion?**
 
-Recursion is a technique in which a method calls itself to solve a smaller version of a problem.
+**Answer:** Recursion is a technique in which a method calls itself to solve a smaller version of a problem.
 
 **Q14. What happens if a recursive method has no base case?**
 
-It may continue making calls until the call stack is exhausted, causing a `StackOverflowError`.
+**Answer:** It may continue making calls until the call stack is exhausted, causing a `StackOverflowError`.
 
 **Q15. Can we override static methods?**
 
-Static methods are not overridden in the runtime-polymorphism sense. They can be hidden by a static method in a subclass.
+**Answer:** Static methods are not overridden in the runtime-polymorphism sense. They can be hidden by a static method in a subclass.
 
 ---
 
-## 19. Practice Exercises
+## 5.19 Practice Exercises
 
 **Instructions:** Solve these exercises independently. Focus on understanding the logic, writing clean code, and testing different inputs.
 
@@ -1572,7 +1578,7 @@ Static methods are not overridden in the runtime-polymorphism sense. They can be
 
 ---
 
-## 21. Key Takeaways
+## 5.20 Key Takeaways
 
 After completing this chapter, you should understand:
 

@@ -1,6 +1,12 @@
+---
+title: "Introduction to Java Programming"
+description: "Learn Java fundamentals, platform independence, JVM, JRE, JDK, and run your first Java Hello World program."
+---
+
 # 1. Introduction to Java Programming ☕
 
-**Navigation:** [Main Tutorial Index](../README.md) | [Next Chapter: Java Installation](../02-Java-Installation-and-Setup/README.md)
+**Navigation:** [Main Tutorial Index](../README.md) | [Next: Java Installation](../02-Java-Installation-and-Setup/README.md)
+
 
 **Examples:** [Hello.java](Hello.java)
 
@@ -97,7 +103,7 @@ Java supports dynamic class loading, allowing classes to be loaded when they are
 
 ---
 
-# 2. How Does Java Work?
+## 2. How Does Java Work?
 
 Before understanding JVM, JRE, and JDK, let's understand how a Java program runs.
 
@@ -172,7 +178,7 @@ The JVM executes the program and displays the result.
 
 ---
 
-# 3. What is JVM (Java Virtual Machine)?
+## 3. What is JVM (Java Virtual Machine)?
 
 JVM stands for **Java Virtual Machine**.
 
@@ -302,7 +308,7 @@ These are platform-specific libraries that can be accessed through JNI when requ
 
 ---
 
-# 4. What is JRE (Java Runtime Environment)?
+## 4. What is JRE (Java Runtime Environment)?
 
 JRE stands for **Java Runtime Environment**.
 
@@ -338,7 +344,7 @@ The runtime provides the JVM and libraries required for execution.
 
 ---
 
-# 5. What is JDK (Java Development Kit)?
+## 5. What is JDK (Java Development Kit)?
 
 JDK stands for **Java Development Kit**.
 
@@ -383,7 +389,7 @@ The JDK provides these development tools.
 
 ---
 
-# 6. Difference Between JVM, JRE, and JDK
+## 6. Difference Between JVM, JRE, and JDK
 
 This is one of the most frequently asked questions in Java interviews.
 
@@ -430,7 +436,7 @@ This is one of the most frequently asked questions in Java interviews.
 
 ---
 
-# 7. First Java Program – Hello World
+## 7. First Java Program – Hello World
 
 Now let's write our first Java program.
 
@@ -509,7 +515,7 @@ Hello, World!
 
 ---
 
-# 8. Important Java Interview Questions
+## 8. Important Java Interview Questions
 
 ### Q1. Who developed Java?
 
@@ -553,7 +559,7 @@ Hello, World!
 
 ---
 
-# 9. Key Takeaways
+## 9. Key Takeaways
 
 Let's quickly revise what we learned:
 

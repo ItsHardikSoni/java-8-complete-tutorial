@@ -1,4 +1,11 @@
+---
+title: "Java Multithreading Tutorial | Concurrency and Interview Questions"
+description: "Learn Java threads and concurrency with examples, practice exercises, and concise interview answers."
+---
+
 # Chapter 12: Multithreading and Concurrency in Java
+
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Java 8 Features](../11-Java-8-Features/README.md) | [Next: JDBC](../13-Java-JDBC/README.md)
 
 ## 1. Introduction to Multithreading
 
@@ -1887,56 +1894,188 @@ The output interleaving may differ.
 ### Basic Questions
 
 1. What is multithreading in Java?
+
+**Answer:** Multithreading allows several independent execution paths to run concurrently inside one Java process.
+
 2. What is a thread?
+
+**Answer:** A thread is an execution path managed by the JVM and platform within a process.
+
 3. What is a process?
+
+**Answer:** A process is an executing program instance with operating-system resources and a separate address space; it may contain threads.
+
 4. What is the difference between a process and a thread?
+
+**Answer:** Processes are isolated and have separate memory; threads share process memory and resources.
+
 5. What are the advantages of multithreading?
+
+**Answer:** Multithreading improves responsiveness, supports background work, enables concurrent tasks, and can improve processor utilization.
+
 6. What are the six states in the Java thread lifecycle?
+
+**Answer:** The states are NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED.
+
 7. How can you create a thread in Java?
+
+**Answer:** Create a `Thread` subclass or implement `Runnable`, pass it to `Thread`, and call `start()`.
+
 8. What is the Thread class?
+
+**Answer:** `Thread` represents an execution thread and provides thread lifecycle, naming, priority, interruption, and control methods.
+
 9. What is the Runnable interface?
+
+**Answer:** `Runnable` is a functional interface whose `run()` method represents the work to execute.
+
 10. What is the difference between start() and run()?
+
+**Answer:** `start()` schedules a new thread and invokes `run()` there; calling `run()` directly executes synchronously in the current thread.
+
 11. What is the purpose of sleep()?
+
+**Answer:** `sleep()` pauses the current thread for a timed interval without releasing monitor locks and throws `InterruptedException`.
+
 12. What is the purpose of join()?
+
+**Answer:** `join()` makes a thread wait for another thread to terminate or for a timeout to expire.
+
 13. What is thread priority?
+
+**Answer:** Priority is a scheduling hint and does not guarantee execution order or CPU share.
+
 14. What is a daemon thread?
+
+**Answer:** A daemon thread runs in the background and does not prevent JVM shutdown after non-daemon threads finish.
+
 15. What is thread interruption?
+
+**Answer:** Interruption is cooperative cancellation: a thread checks `isInterrupted()` or receives `InterruptedException` in a blocking method.
 
 ### Intermediate Questions
 
 16. What is synchronization?
+
+**Answer:** Synchronization restricts or coordinates access to shared state or critical sections.
+
 17. What is a race condition?
+
+**Answer:** A race condition is incorrect behavior that depends on the unpredictable ordering of concurrent operations.
+
 18. What is a critical section?
+
+**Answer:** A critical section is code that accesses shared state and must be synchronized or otherwise made thread-safe.
+
 19. What is the synchronized keyword?
+
+**Answer:** `synchronized` provides mutual exclusion and monitor visibility for a block or method.
+
 20. What is the difference between a synchronized method and block?
+
+**Answer:** A synchronized method locks its entire scope; a synchronized block locks only selected statements using an explicit monitor.
+
 21. What is static synchronization?
+
+**Answer:** Static synchronization uses the class object as the monitor, serializing synchronized static methods across instances.
+
 22. What is the volatile keyword?
+
+**Answer:** `volatile` guarantees visibility and ordering for a variable but does not make compound operations atomic.
+
 23. What is the difference between volatile and synchronized?
+
+**Answer:** `volatile` provides visibility for individual accesses; `synchronized` provides mutual exclusion and visibility for compound operations.
+
 24. What is deadlock?
+
+**Answer:** Deadlock is circular waiting in which threads hold resources needed by one another and cannot proceed.
+
 25. What are the four necessary conditions for deadlock?
+
+**Answer:** The four conditions are mutual exclusion, hold-and-wait, no preemption, and circular wait.
+
 26. What is inter-thread communication?
+
+**Answer:** Inter-thread communication coordinates thread activity using shared monitor state and wait/notification methods.
+
 27. What is the difference between wait(), notify(), and notifyAll()?
+
+**Answer:** `wait()` releases the monitor and waits; `notify()` wakes one waiter; `notifyAll()` wakes all waiters.
+
 28. Why should wait() be called inside a while loop?
+
+**Answer:** A condition may change or must be rechecked after notification, so waiting should occur inside a `while` loop.
+
 29. What is the Executor Framework?
+
+**Answer:** The Executor Framework separates task submission from thread creation and lifecycle management.
+
 30. What is a thread pool?
+
+**Answer:** A thread pool maintains reusable worker threads and executes queued tasks, limiting thread creation and resource use.
 
 ### Advanced Questions
 
 31. What is the difference between Runnable and Callable?
+
+**Answer:** `Runnable` has no result and cannot throw a checked exception; `Callable<V>` returns a result and may throw an exception.
+
 32. What is Future?
+
+**Answer:** `Future` represents an asynchronous task’s eventual result or exception and supports status, cancellation, and blocking retrieval.
+
 33. What is the difference between execute() and submit()?
+
+**Answer:** `execute()` has no result and accepts `Runnable`; `submit()` accepts `Runnable` or `Callable` and returns a `Future`.
+
 34. What is ScheduledExecutorService?
+
+**Answer:** `ScheduledExecutorService` schedules delayed or repeated tasks with fixed delays or fixed rates.
+
 35. What is ConcurrentHashMap?
+
+**Answer:** `ConcurrentHashMap` is a thread-safe map optimized for concurrent reads and updates without a whole-map read lock.
+
 36. What is CopyOnWriteArrayList?
+
+**Answer:** `CopyOnWriteArrayList` replaces its backing array for writes and provides snapshot-stable iteration, suited to read-heavy workloads.
+
 37. What is BlockingQueue?
+
+**Answer:** `BlockingQueue` provides queue operations that block when the queue is full or empty.
+
 38. What is AtomicInteger?
+
+**Answer:** `AtomicInteger` provides lock-free, thread-safe integer operations using atomic compare-and-update primitives.
+
 39. What is ReentrantLock?
+
+**Answer:** `ReentrantLock` is an explicit reentrant lock with try-lock, timed/interruptible acquisition, and conditions.
+
 40. What is the difference between synchronized and ReentrantLock?
+
+**Answer:** Synchronized is implicit and scope-based; `ReentrantLock` is explicit and offers try-lock, timed or interruptible acquisition, fairness, and conditions.
+
 41. What is the difference between shutdown() and shutdownNow()?
+
+**Answer:** `shutdown()` refuses new work and drains accepted work; `shutdownNow()` attempts to stop active tasks and returns queued tasks.
+
 42. What is a race condition in a banking application?
+
+**Answer:** Concurrent withdrawals can read the same balance and both update it, so each account operation must be synchronized or otherwise atomic.
+
 43. What is the difference between concurrency and parallelism?
+
+**Answer:** Concurrency manages overlapping tasks; parallelism executes tasks simultaneously on multiple processors.
+
 44. What is the Java Memory Model?
+
+**Answer:** The Java Memory Model defines visibility, ordering, and synchronization guarantees for shared thread data.
+
 45. What is a happens-before relationship?
+
+**Answer:** Happens-before means an action is ordered before and visible to another action under the JVM memory rules.
 
 ---
 
@@ -1997,7 +2136,7 @@ Completed solutions are available in the [Practice-Programs folder](Practice-Pro
 
 ---
 
-## 26. Chapter Summary
+## 25. Chapter Summary
 
 In this chapter, you learned:
 

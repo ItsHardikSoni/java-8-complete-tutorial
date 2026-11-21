@@ -1,4 +1,5 @@
 # Java Collections Framework - Practice Programs
+**Navigation:** [Main Tutorial Index](../../README.md) | [Chapter Guide](../README.md)
 
 This folder contains solutions for all 30 practice exercises.
 

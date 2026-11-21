@@ -1,4 +1,5 @@
 # Java 8 Features - Practice Programs
+**Navigation:** [Main Tutorial Index](../../README.md) | [Chapter Guide](../README.md)
 
 This folder contains solutions for all 40 Java 8 practice exercises.
 

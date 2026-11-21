@@ -1,4 +1,11 @@
+---
+title: "Java Collections Framework Tutorial | Examples and Interview Questions"
+description: "Master Java Collections with clear explanations, code examples, practice exercises, and interview answers."
+---
+
 # Chapter 10: Java Collections Framework (JCF)
+
+**Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Exception Handling](../09-Java-Exception-Handling/README.md) | [Next: Java 8 Features](../11-Java-8-Features/README.md)
 
 ## 1. Introduction to the Java Collections Framework
 
@@ -1844,41 +1851,128 @@ This distinction is frequently asked in interviews.
 ### Basic Questions
 
 1. What is the Java Collections Framework?
+
+**Answer:** The Java Collections Framework is a set of interfaces and implementations for storing, retrieving, and processing groups of objects.
+
 2. Why do we use Collections in Java?
+
+**Answer:** Collections provide dynamic sizing, useful implementations, type safety through generics, and common search and sort algorithms.
+
 3. What is the difference between Collection and Collections?
+
+**Answer:** `Collection` is a root interface for element containers; `Collections` is a utility class with static collection algorithms and wrappers.
+
 4. What is the Collection interface?
+
+**Answer:** The `Collection` interface defines common operations such as `add`, `remove`, `contains`, `size`, and `iterator`.
+
 5. What is the difference between List, Set, and Queue?
+
+**Answer:** `List` preserves order and allows duplicates, `Set` stores unique elements, and `Queue` models ordered element processing.
+
 6. What is the difference between an array and an ArrayList?
+
+**Answer:** Arrays have fixed length and may hold primitives or objects; `ArrayList` has dynamic capacity and stores objects through generics.
+
 7. What is ArrayList?
+
+**Answer:** `ArrayList` is a resizable-array `List` implementation with fast indexed access and amortized-constant-time appends.
+
 8. What is LinkedList?
+
+**Answer:** `LinkedList` is a doubly linked `List` and `Deque` implementation, efficient for operations at or near either end.
+
 9. What is HashSet?
+
+**Answer:** `HashSet` is a hash-table-based `Set` that rejects duplicate elements and does not guarantee iteration order.
+
 10. What is HashMap?
+
+**Answer:** `HashMap` stores key-value pairs in a hash table, provides average O(1) lookup, and allows one `null` key and multiple `null` values.
 
 ### Intermediate Questions
 
 11. What is the difference between ArrayList and LinkedList?
+
+**Answer:** `ArrayList` is faster for indexed access; `LinkedList` is efficient for end operations but slower for indexes and has per-node overhead.
+
 12. What is the difference between HashSet and TreeSet?
+
+**Answer:** `HashSet` is unordered; `TreeSet` keeps elements in natural or comparator-defined sorted order.
+
 13. What is the difference between HashMap and LinkedHashMap?
+
+**Answer:** `HashMap` has no iteration-order guarantee; `LinkedHashMap` maintains insertion order or access order.
+
 14. Why does HashMap allow only one null key?
+
+**Answer:** HashMap permits only one `null` key because key lookup requires at most one distinct key equal to `null`; later entries with that key replace its value.
+
 15. How does HashMap work internally?
+
+**Answer:** HashMap hashes the key, chooses a bucket, compares candidates with `hashCode()` and `equals()`, and updates or retrieves the entry; Java 8 may treeify long chains.
+
 16. What is hashing?
+
+**Answer:** Hashing converts an object to an integer used to select a hash-table bucket.
+
 17. What is a hash collision?
+
+**Answer:** A collision occurs when different keys have the same hash or bucket; hash-based classes distinguish them using `equals()`.
+
 18. What is the difference between Iterator and ListIterator?
+
+**Answer:** `Iterator` supports forward traversal; `ListIterator` supports bidirectional traversal and list element modification.
+
 19. What is the difference between Comparable and Comparator?
+
+**Answer:** `Comparable` defines natural object ordering with `compareTo()`; `Comparator` defines a separate ordering with `compare()`.
+
 20. What is the difference between fail-fast and fail-safe terminology in collection iteration?
+
+**Answer:** Fail-fast iterators detect concurrent structural modification and throw `ConcurrentModificationException`; fail-safe/weakly consistent views do not promise the newest state and usually do not throw it.
 
 ### Advanced Questions
 
 21. Explain the internal working of HashMap in Java 8.
+
+**Answer:** Java 8 HashMap uses a spread key hash to choose a bucket, compares colliding keys with `hashCode()` and `equals()`, and represents sufficiently large collision chains as red-black trees.
+
 22. What happens when two keys have the same hash code?
+
+**Answer:** Keys with the same hash remain in the same bucket and are distinguished with `equals()`; equal keys identify the same entry.
+
 23. Why should equals() and hashCode() be overridden together?
+
+**Answer:** Hash-based collections use `hashCode()` to select a bucket and `equals()` to verify equality, so equal objects must have the same hash code.
+
 24. How does HashSet internally use HashMap?
+
+**Answer:** `HashSet` delegates storage to a `HashMap`, using the element as a key and a constant placeholder as the value.
+
 25. What is the load factor of HashMap?
+
+**Answer:** The load factor is the capacity-to-entry ratio that triggers resizing; HashMap’s default is 0.75.
+
 26. What is the default initial capacity and load factor of HashMap?
+
+**Answer:** The default initial capacity is 16 buckets and the default load factor is 0.75.
+
 27. What is ConcurrentHashMap?
+
+**Answer:** `ConcurrentHashMap` is a thread-safe hash table designed for concurrent reads and updates with no whole-map read lock.
+
 28. What is the difference between HashMap and ConcurrentHashMap?
+
+**Answer:** `HashMap` is unsynchronized and not thread-safe; `ConcurrentHashMap` is thread-safe, more concurrent, and permits neither `null` keys nor `null` values.
+
 29. Why is ArrayDeque preferred over Stack?
+
+**Answer:** `ArrayDeque` is resizable-array-backed, faster and more memory-efficient than legacy `Stack`, and supports consistent double-ended operations.
+
 30. What is the difference between synchronized collections and concurrent collections?
+
+**Answer:** Synchronized collections apply broad method locks; concurrent collections use concurrency-aware structures and generally scale better.
 
 ---
 
@@ -1929,7 +2023,7 @@ Completed solutions are available in the [Practice-Programs folder](Practice-Pro
 
 ---
 
-## 20. Chapter Summary
+## 19. Chapter Summary
 
 In this chapter, you learned:
 
