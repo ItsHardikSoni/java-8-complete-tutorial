@@ -9,26 +9,19 @@ All programs are written using Java 8 and include practical examples.
 ## Topics Covered
 
 ### Beginner Programs
-1. Hello World
-2. Student Details
-3. Addition of Two Numbers
-4. Swapping Two Numbers
-5. Area of Rectangle
-6. Simple Interest
+1. Student Details
+2. Arithmetic Operations
+3. Area Of Rectangle
+4. Kilometers To Meters
+5. Average Of Five Numbers
 
 ### Intermediate Programs
-7. Even or Odd Number
-8. Largest of Three Numbers
-9. Positive, Negative, or Zero
-10. Vowel or Consonant
-11. Simple Calculator
-12. Average of Five Numbers
+6. Swap Numbers using temp variable
+7. Swap Numbers without using temp variable
 
 ### Real-World Programs
-13. Student Percentage Calculator
-14. Electricity Bill Calculator
-15. Shopping Bill Calculator
-16. Employee Salary Calculator
+8. CompoundInterest
+9. Fahrenheit To Celsius
 
 ## How to Run Java Programs
 

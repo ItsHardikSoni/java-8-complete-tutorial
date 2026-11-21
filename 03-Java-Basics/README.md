@@ -3152,23 +3152,11 @@ Try solving these questions yourself before checking the solutions.
 
 **Exercise 7:** Write a program to swap two numbers without using a temporary variable.
 
-**Exercise 8:** Write a program to check whether a number is even or odd.
-
-**Exercise 9:** Write a program to find the largest of three numbers.
-
-**Exercise 10:** Write a program to check whether a student is eligible to vote based on age.
-
 ### Advanced Practice
 
-**Exercise 11:** Write a program to reverse a three-digit number.
+**Exercise 8:** Write a program to calculate the compound interest.
 
-**Exercise 12:** Write a program to calculate the compound interest.
-
-**Exercise 13:** Write a program to convert Fahrenheit into Celsius.
-
-**Exercise 14:** Write a program to check whether a number is divisible by both 5 and 11.
-
-**Exercise 15:** Write a program that accepts a student's name and marks in three subjects using Scanner and calculates the total and percentage.
+**Exercise 9:** Write a program to convert Fahrenheit into Celsius.
 
 ## 3.18 Practice Exercise Solutions
 
