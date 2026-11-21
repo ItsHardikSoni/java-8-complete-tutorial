@@ -8,97 +8,6 @@ Learn **Core Java, Object-Oriented Programming (OOP), Java 8 Features, JDBC, and
 
 Whether you are preparing for Java developer interviews, college examinations, coding assessments, or building your programming skills, this repository provides a structured learning path to master Java.
 
-## 📚 Topics Covered
-
-### 1. Core Java Fundamentals
-- Introduction to Java and JVM, JRE, JDK
-- Java Installation and Environment Setup
-- Variables, Data Types, and Operators
-- Conditional Statements and Loops
-- Arrays and Strings
-- Type Casting and Wrapper Classes
-
-### 2. Object-Oriented Programming (OOP)
-- Classes and Objects
-- Constructors and Methods
-- Inheritance
-- Polymorphism
-- Abstraction
-- Encapsulation
-- Interfaces
-- Method Overloading and Overriding
-- Static and Final Keywords
-
-### 3. Java Programming Concepts
-- Exception Handling
-- Packages and Access Modifiers
-- String, StringBuilder, and StringBuffer
-- Memory Management and Garbage Collection
-- Inner Classes
-- Java Enums
-- Recursion
-
-### 4. Java Collections Framework
-- Collection Interface
-- List, Set, Map, and Queue
-- ArrayList and LinkedList
-- HashSet and TreeSet
-- HashMap and TreeMap
-- Iterator and ListIterator
-- Comparable and Comparator
-
-### 5. Java 8 Features
-Explore modern Java programming with powerful Java 8 features:
-
-- Lambda Expressions
-- Functional Interfaces
-- Predicate, Function, Consumer, and Supplier
-- Stream API
-- Filter, Map, Reduce, and Collect
-- Method References
-- Constructor References
-- Default and Static Methods in Interfaces
-- Optional Class
-- forEach() Method
-- Java Date and Time API
-
-### 6. Multithreading and Concurrency
-- Introduction to Multithreading
-- Thread Class and Runnable Interface
-- Thread Life Cycle
-- Synchronization
-- Thread Communication
-- Executor Framework
-- Callable and Future
-
-### 7. JDBC (Java Database Connectivity)
-- Introduction to JDBC
-- JDBC Architecture
-- JDBC Drivers
-- Database Connection
-- Statement and PreparedStatement
-- ResultSet
-- CRUD Operations
-- Batch Processing
-- Transaction Management
-- Connecting Java Applications with MySQL
-
-### 8. File Handling and I/O
-- File Class
-- FileReader and FileWriter
-- BufferedReader and BufferedWriter
-- InputStream and OutputStream
-- Serialization and Deserialization
-
-### 9. Java Interview Preparation
-- Frequently Asked Java Interview Questions
-- Java 8 Interview Questions
-- OOP Interview Questions
-- Collections Framework Questions
-- JDBC Interview Questions
-- Java Coding Problems and Solutions
-- Practical Programming Exercises
-
 ## 🗂️ Complete Learning Index
 
 Use this index to jump directly to a chapter, folder, topic, or practice program.
@@ -297,6 +206,32 @@ Use this index to jump directly to a chapter, folder, topic, or practice program
 - Practice index: [Practice Programs README](09-Java-Exception-Handling/Practice-Programs/README.md)
 - 9.23 [Practice Exercises](09-Java-Exception-Handling/README.md#23-practice-exercises)
 - 9.25 [Key Takeaways](09-Java-Exception-Handling/README.md#25-key-takeaways)
+
+### 10. Java Collections Framework
+
+- Chapter folder: [10. Java Collections Framework](10-Java-Collections-Framework/)
+- Chapter guide: [Collections Framework in Java](10-Java-Collections-Framework/README.md)
+- Practice folder: [Java Collections Practice Programs](10-Java-Collections-Framework/Practice-Programs/)
+- Practice index: [Practice Programs README](10-Java-Collections-Framework/Practice-Programs/README.md)
+- 10.1 [Introduction to the Collections Framework](10-Java-Collections-Framework/README.md#1-introduction-to-the-java-collections-framework)
+- 10.2 [Collection vs Collections](10-Java-Collections-Framework/README.md#2-collection-vs-collections)
+- 10.3 [Collections Framework Hierarchy](10-Java-Collections-Framework/README.md#3-collections-framework-hierarchy)
+- 10.4 [List Interface](10-Java-Collections-Framework/README.md#4-list-interface)
+- 10.5 [Set Interface](10-Java-Collections-Framework/README.md#5-set-interface)
+- 10.6 [Queue Interface](10-Java-Collections-Framework/README.md#6-queue-interface)
+- 10.7 [Map Interface](10-Java-Collections-Framework/README.md#7-map-interface)
+- 10.8 [Iterator and ListIterator](10-Java-Collections-Framework/README.md#8-iterator-and-listiterator)
+- 10.9 [Comparable and Comparator](10-Java-Collections-Framework/README.md#9-comparable-and-comparator)
+- 10.10 [Generics in Collections](10-Java-Collections-Framework/README.md#10-generics-in-collections)
+- 10.11 [Java 8 Collection Features](10-Java-Collections-Framework/README.md#11-java-8-collection-features)
+- 10.12 [Array and Collection Conversions](10-Java-Collections-Framework/README.md#12-important-array-and-collection-conversion)
+- 10.13 [Interview Differences](10-Java-Collections-Framework/README.md#13-important-differences-for-interviews)
+- 10.14 [Real-World Applications](10-Java-Collections-Framework/README.md#14-real-world-applications-of-collections)
+- 10.15 [Common Mistakes](10-Java-Collections-Framework/README.md#15-common-mistakes-in-collections)
+- 10.16 [Best Practices](10-Java-Collections-Framework/README.md#16-best-practices)
+- 10.17 [Interview Questions](10-Java-Collections-Framework/README.md#17-java-collections-framework-interview-questions)
+- 10.18 [Practice Exercises](10-Java-Collections-Framework/README.md#18-practice-exercises)
+- 10.20 [Chapter Summary](10-Java-Collections-Framework/README.md#20-chapter-summary)
 
 ## 🎯 Learning Objectives
 
