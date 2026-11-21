@@ -1,5 +1,9 @@
 # Chapter 3: Java Basics – Syntax, Variables, Data Types, and Operators
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Java Installation](../02-Java-Installation-and-Setup/README.md) | [Next: Control Flow](../04-Java-Control-Flow/README.md)
+
+**Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
+
 Welcome to the third chapter of our Java 8 Tutorial!
 
 In the previous chapters, we learned what Java is, how JVM, JRE, and JDK work, and how to install Java on our computer.

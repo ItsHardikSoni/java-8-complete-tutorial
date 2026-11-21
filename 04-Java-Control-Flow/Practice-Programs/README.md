@@ -1,5 +1,7 @@
 # Java Control Flow - Practice Programs
 
+**Navigation:** [Main Index](../../README.md) | [Chapter Guide](../README.md)
+
 This folder contains Java 8 practice programs for learning decision-making and looping statements.
 
 ## How to Run
@@ -17,26 +19,26 @@ java EvenOdd
 
 ## Practice Programs
 
-1. Even or Odd
-2. Largest of Three Numbers
-3. Leap Year
-4. Multiplication Table
-5. Factorial
-6. Prime Number
-7. Fibonacci Series
-8. Palindrome Number
-9. Armstrong Number
-10. Reverse Number
-11. Sum of Digits
-12. Greatest Common Divisor
-13. Square Pattern
-14. Triangle Pattern
-15. Pyramid Pattern
-16. Number Pattern
-17. Floyd's Triangle
-18. Calculator
-19. Student Grading
-20. Electricity Bill
-21. ATM Menu
+1. [Even or Odd](01-EvenOdd.java)
+2. [Largest of Three Numbers](02-LargestOfThree.java)
+3. [Leap Year](03-LeapYear.java)
+4. [Multiplication Table](04-MultiplicationTable.java)
+5. [Factorial](05-Factorial.java)
+6. [Prime Number](06-PrimeNumber.java)
+7. [Fibonacci Series](07-FibonacciSeries.java)
+8. [Palindrome Number](08-PalindromeNumber.java)
+9. [Armstrong Number](09-ArmstrongNumber.java)
+10. [Reverse Number](10-ReverseNumber.java)
+11. [Sum of Digits](11-SumOfDigits.java)
+12. [Greatest Common Divisor](12-GCD.java)
+13. [Square Pattern](13-SquarePattern.java)
+14. [Triangle Pattern](14-TrianglePattern.java)
+15. [Pyramid Pattern](15-PyramidPattern.java)
+16. [Number Pattern](16-NumberPattern.java)
+17. [Floyd's Triangle](17-FloydTriangle.java)
+18. [Calculator](18-Calculator.java)
+19. [Student Grading](19-StudentGrading.java)
+20. [Electricity Bill](20-ElectricityBill.java)
+21. [ATM Menu](21-ATMMenu.java)
 
 Use these programs to practice `if`, `switch`, `for`, `while`, `do-while`, `break`, and `continue`.

@@ -1,5 +1,9 @@
 # Chapter 4: Java Control Flow Statements – Decision Making and Loops
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Java Basics](../03-Java-Basics/README.md) | [Next: Methods and Constructors](../05-Java-Methods-and-Constructors/README.md)
+
+**Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
+
 ## 4.1 Introduction to Control Flow Statements
 
 Control flow statements are used to control the order in which instructions are executed in a Java program.

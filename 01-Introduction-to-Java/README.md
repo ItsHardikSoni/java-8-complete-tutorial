@@ -1,5 +1,9 @@
 # 1. Introduction to Java Programming ☕
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Next Chapter: Java Installation](../02-Java-Installation-and-Setup/README.md)
+
+**Examples:** [Hello.java](Hello.java)
+
 ## 1.1 What is Java?
 
 Java is a **high-level, object-oriented, platform-independent programming language** used to develop different types of applications, such as desktop applications, web applications, Android applications, enterprise software, and backend systems.

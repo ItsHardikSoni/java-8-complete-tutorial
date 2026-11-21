@@ -1,5 +1,9 @@
 # 2. Java Installation and Environment Setup ☕
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Introduction](../01-Introduction-to-Java/README.md) | [Next: Java Basics](../03-Java-Basics/README.md)
+
+**Examples:** [HelloWorld.java](HelloWorld.java)
+
 Before writing Java programs, we need to install the Java Development Kit (JDK) on our computer.
 
 In this tutorial, we will learn how to install Java 8, configure the environment, check Java versions, and execute our first Java program.
