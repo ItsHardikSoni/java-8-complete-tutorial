@@ -1,5 +1,9 @@
 # Chapter 5: Methods and Constructors in Java
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Control Flow](../04-Java-Control-Flow/README.md) | [Next: OOP](../06-Java-OOP/README.md)
+
+**Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
+
 ## 1. Introduction to Methods in Java
 
 A method is a block of code that performs a specific task. Instead of writing the same code repeatedly, we can create a method and call it whenever required.

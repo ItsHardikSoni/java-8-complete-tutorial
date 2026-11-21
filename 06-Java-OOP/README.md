@@ -1,5 +1,9 @@
 # Chapter 6: Object-Oriented Programming (OOP) in Java
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Previous: Methods and Constructors](../05-Java-Methods-and-Constructors/README.md) | [Next: Arrays](../07-Java-Arrays/README.md)
+
+**Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
+
 ## 1. Introduction to Object-Oriented Programming
 
 Object-Oriented Programming (OOP) is a programming approach in which we organize programs around objects rather than writing everything as separate instructions.

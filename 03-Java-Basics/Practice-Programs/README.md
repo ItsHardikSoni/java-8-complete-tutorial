@@ -1,5 +1,7 @@
 # Java Basics – Practice Programs
 
+**Navigation:** [Main Index](../../README.md) | [Chapter Guide](../README.md)
+
 Welcome to the Java Basics Practice Programs section!
 
 This folder contains beginner-friendly Java programming exercises designed to improve logical thinking, problem-solving skills, and understanding of Core Java concepts.
@@ -9,19 +11,19 @@ All programs are written using Java 8 and include practical examples.
 ## Topics Covered
 
 ### Beginner Programs
-1. Student Details
-2. Arithmetic Operations
-3. Area Of Rectangle
-4. Kilometers To Meters
-5. Average Of Five Numbers
+1. [Student Details](01-StudentDetails.java)
+2. [Arithmetic Operations](02-ArithmeticOperations.java)
+3. [Area of Rectangle](03-AreaOfRectangle.java)
+4. [Kilometers to Meters](04-KilometersToMeters.java)
+5. [Average of Five Numbers](05-AverageOfFiveNumbers.java)
 
 ### Intermediate Programs
-6. Swap Numbers using temp variable
-7. Swap Numbers without using temp variable
+6. [Swap Numbers using temp variable](06-SwapUsingTempVariable.java)
+7. [Swap Numbers without using temp variable](07-SwapWithoutTempVariable.java)
 
 ### Real-World Programs
-8. CompoundInterest
-9. Fahrenheit To Celsius
+8. [Compound Interest](08-CompoundInterest.java)
+9. [Fahrenheit to Celsius](09-FahrenheitToCelsius.java)
 
 ## How to Run Java Programs
 

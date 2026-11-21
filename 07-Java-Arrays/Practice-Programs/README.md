@@ -1,5 +1,7 @@
 # Java Arrays - Practice Programs
 
+**Navigation:** [Main Index](../../README.md) | [Chapter Guide](../README.md)
+
 This folder contains solutions for all 40 array practice exercises.
 
 ## How to Run

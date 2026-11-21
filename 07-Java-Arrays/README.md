@@ -1,5 +1,9 @@
 # Chapter 7: Arrays in Java
 
+**Navigation:** [Main Tutorial Index](../README.md) | [Previous: OOP](../06-Java-OOP/README.md)
+
+**Practice:** [Practice Programs](Practice-Programs/) | [Practice Program Index](Practice-Programs/README.md)
+
 ## 1. Introduction to Arrays
 
 An array is a data structure that stores multiple values of the same data type in a single variable.
