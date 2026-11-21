@@ -1,8 +1,3 @@
----
-title: "Java Exception Handling Tutorial: try, catch, and Resources"
-description: "Learn Java exception handling with try-catch-finally, throw and throws, custom exceptions, try-with-resources, examples, exercises, and interview answers."
----
-
 # Chapter 9: Exception Handling in Java
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Strings](../08-Java-Strings/README.md) | [Next: Collections](../10-Java-Collections-Framework/README.md)

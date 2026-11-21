@@ -1,8 +1,3 @@
----
-title: "Java Multithreading Tutorial | Concurrency and Interview Questions"
-description: "Learn Java threads and concurrency with examples, practice exercises, and concise interview answers."
----
-
 # Chapter 12: Multithreading and Concurrency in Java
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Java 8 Features](../11-Java-8-Features/README.md) | [Next: JDBC](../13-Java-JDBC/README.md)

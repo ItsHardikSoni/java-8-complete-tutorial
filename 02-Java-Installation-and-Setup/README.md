@@ -1,8 +1,3 @@
----
-title: "Java 8 Installation and Environment Setup"
-description: "Install Java 8 JDK, configure JAVA_HOME and PATH, use IDEs, and compile and run Java programs."
----
-
 # 2. Java Installation and Environment Setup ☕
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Previous: Introduction](../01-Introduction-to-Java/README.md) | [Next: Java Basics](../03-Java-Basics/README.md)

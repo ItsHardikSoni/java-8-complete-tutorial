@@ -1,8 +1,3 @@
----
-title: "Java Collections Framework Tutorial | Examples and Interview Questions"
-description: "Master Java Collections with clear explanations, code examples, practice exercises, and interview answers."
----
-
 # Chapter 10: Java Collections Framework (JCF)
 
 **Navigation:** [Main Tutorial Index](../README.md) | [Practice Programs](Practice-Programs/) | [Previous: Exception Handling](../09-Java-Exception-Handling/README.md) | [Next: Java 8 Features](../11-Java-8-Features/README.md)
