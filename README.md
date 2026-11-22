@@ -408,7 +408,7 @@ If you find this Java tutorial helpful, consider giving this repository a ⭐ St
 
 ## 📌 Contribution
 
-Suggestions, improvements, and contributions are welcome! Feel free to fork this repository, open an issue, or submit a pull request.
+Suggestions, improvements, and contributions are welcome! Please read the [Contribution Guidelines](CONTRIBUTING.md), then feel free to fork this repository, open an issue, or submit a pull request.
 
 ---
 
