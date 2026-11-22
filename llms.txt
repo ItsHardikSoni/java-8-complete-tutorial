@@ -12,6 +12,7 @@
 ## Main Resources
 
 - [Repository README](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/README.md): Complete learning index and repository overview.
+- [Contribution Guidelines](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/CONTRIBUTING.md): Branch, content, Java example, pull request, and license guidance for contributors.
 - [MIT License](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/LICENSE): Applies to source code and Java examples.
 - [Documentation License](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/LICENSE-DOCUMENTATION): CC BY 4.0 license for educational documentation.
 
