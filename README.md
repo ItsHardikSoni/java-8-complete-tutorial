@@ -380,6 +380,10 @@ By completing this tutorial, you will be able to:
 - Developers preparing for Java interviews
 - Anyone interested in learning Java programming
 
+## 🤖 AI and LLM Access
+
+AI assistants can use the [LLM-friendly repository index](llms.txt) for a concise map of the tutorials and practice programs.
+
 ## 🛠️ Technologies Used
 
 - **Programming Language:** Java

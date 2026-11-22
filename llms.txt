@@ -1,0 +1,51 @@
+# Java 8 Tutorial
+
+> A structured, chapter-by-chapter Java programming tutorial for beginners and students. It progresses from Java fundamentals and object-oriented programming to collections, Java 8 features, multithreading, and JDBC, with practical Java examples.
+
+## Using This Repository
+
+- Start with the [Repository README](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/README.md) for the complete chapter index.
+- Use chapter guides for explanations and the matching `Practice-Programs/README.md` files for exercise lists.
+- Treat Java source files as educational examples. The repository targets Java 8 and includes JDBC examples that may require database configuration.
+- Attribute original repository content according to the applicable MIT or CC BY 4.0 license below.
+
+## Main Resources
+
+- [Repository README](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/README.md): Complete learning index and repository overview.
+- [MIT License](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/LICENSE): Applies to source code and Java examples.
+- [Documentation License](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/LICENSE-DOCUMENTATION): CC BY 4.0 license for educational documentation.
+
+## Tutorials
+
+- [Introduction to Java](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/01-Introduction-to-Java/README.md): Java overview, JVM, JRE, JDK, Java execution, and a first program.
+- [Java Installation and Environment Setup](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/02-Java-Installation-and-Setup/README.md): JDK installation, environment variables, tools, commands, and setup examples.
+- [Java Basics](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/03-Java-Basics/README.md): Syntax, structure, variables, data types, casting, constants, operators, and Scanner input.
+- [Java Control Flow](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/04-Java-Control-Flow/README.md): Decision-making statements, loops, jump statements, patterns, and exercises.
+- [Methods and Constructors](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/05-Java-Methods-and-Constructors/README.md): Method declarations, method types, overloading, constructors, `this`, recursion, and pass by value.
+- [Object-Oriented Programming](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/06-Java-OOP/README.md): Classes, objects, encapsulation, inheritance, polymorphism, abstraction, interfaces, and access modifiers.
+- [Java Arrays](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/07-Java-Arrays/README.md): Array declaration and initialization, multidimensional and jagged arrays, searching, sorting, and copying.
+- [Java Strings](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/08-Java-Strings/README.md): String creation, immutability, methods, formatting, regular expressions, StringBuilder, and StringBuffer.
+- [Exception Handling](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/09-Java-Exception-Handling/README.md): Built-in and custom exceptions, try/catch/finally, throw/throws, propagation, and try-with-resources.
+- [Collections Framework](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/10-Java-Collections-Framework/README.md): Lists, sets, maps, queues, iteration, sorting, and common collection implementations.
+- [Java 8 Features](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/11-Java-8-Features/README.md): Functional interfaces, lambda expressions, streams, method references, Optional, and the date/time API.
+- [Java Multithreading](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/12-Java-Multithreading/README.md): Threads, synchronization, locks, executors, concurrency utilities, and thread-safe programming.
+- [JDBC](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/13-Java-JDBC/README.md): Database connectivity, CRUD operations, prepared statements, transactions, metadata, and DAO patterns.
+
+## Practice Programs
+
+- [Java Basics Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/03-Java-Basics/Practice-Programs/README.md)
+- [Java Control Flow Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/04-Java-Control-Flow/Practice-Programs/README.md)
+- [Methods and Constructors Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/05-Java-Methods-and-Constructors/Practice-Programs/README.md)
+- [Object-Oriented Programming Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/06-Java-OOP/Practice-Programs/README.md)
+- [Java Arrays Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/07-Java-Arrays/Practice-Programs/README.md)
+- [Java Strings Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/08-Java-Strings/Practice-Programs/README.md)
+- [Exception Handling Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/09-Java-Exception-Handling/Practice-Programs/README.md)
+- [Collections Framework Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/10-Java-Collections-Framework/Practice-Programs/README.md)
+- [Java 8 Features Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/11-Java-8-Features/Practice-Programs/README.md)
+- [Java Multithreading Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/12-Java-Multithreading/Practice-Programs/README.md)
+- [JDBC Practice Index](https://github.com/ItsHardikSoni/java8-tutorial/blob/main/13-Java-JDBC/Practice-Programs/README.md)
+
+## Optional
+
+- [Java source examples](https://github.com/ItsHardikSoni/java8-tutorial/tree/main): Browse the repository directories for standalone `.java` examples and chapter-specific practice programs.
+- [Contribution guidelines](https://github.com/ItsHardikSoni/java8-tutorial/issues): Use the repository issue tracker for suggestions, improvements, and contributions.
